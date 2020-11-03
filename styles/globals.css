@@ -1,16 +1,38 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind components;
 
-* {
-  box-sizing: border-box;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 100%;
+  }
+  body {
+    @apply text-base;
+  }
+
+  html,
+  body {
+    @apply p-0 font-sans;
+  }
+  
+  a {
+    @apply text-blue-700;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+  
+  /* make tap targets big enough */
+  nav a, button, summary {
+    @apply box-border min-w-tap min-h-tap;
+  }
+
+  /* center tap targets vertically  but not summary */
+  /* summary doesn't work well with display: flex on Safari */
+  nav a, button {
+    @apply flex items-center;
+  }
 }
