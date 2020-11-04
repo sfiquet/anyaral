@@ -1,4 +1,6 @@
-export default function Header({appName}){
+import { appName } from '../app.config.js'
+
+export default function Header(){
   return (
     <header className="w-full border-b border-solid border-gray-500">
       <nav aria-label="Main" role="navigation" className="flex flex-wrap justify-center sm:justify-between items-center max-w-3xl mx-auto">
