@@ -1,0 +1,288 @@
+{
+  "version": {
+    "source": 40,
+    "script": "1.0.0"
+  },
+  "data": [
+    {
+      "code": "casanii_core",
+      "culture": "Casanii",
+      "theme": "Core",
+      "allies": [],
+      "nonFriendlies": [
+        "casanii_feral"
+      ],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "casanii_deyath",
+      "culture": "Casanii",
+      "theme": "Deyath",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "casanii_feral",
+      "culture": "Casanii",
+      "theme": "Feral",
+      "allies": [],
+      "nonFriendlies": [
+        "casanii_core"
+      ],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "casanii_steyar",
+      "culture": "Casanii",
+      "theme": "Steyar",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "delgon_core",
+      "culture": "Delgon",
+      "theme": "Core",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "delgon_dehran",
+      "culture": "Delgon",
+      "theme": "Dehran",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "delgon_roban",
+      "culture": "Delgon",
+      "theme": "Roban",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "devanu_arak",
+      "culture": "Devanu",
+      "theme": "Arak",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "devanu_core",
+      "culture": "Devanu",
+      "theme": "Core",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "devanu_outcasts",
+      "culture": "Devanu",
+      "theme": "Outcasts",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "dhogu_core",
+      "culture": "Dhogu",
+      "theme": "Core",
+      "allies": [
+        "delgon_core",
+        "delgon_dehran",
+        "delgon_roban",
+        "empire_ardaug",
+        "empire_core",
+        "empire_engu",
+        "empire_knights",
+        "empire_riverfolk",
+        "empire_loranti",
+        "empire_noble",
+        "empire_orel"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_ardaug",
+      "culture": "Empire",
+      "theme": "Ardaug",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_core",
+      "culture": "Empire",
+      "theme": "Core",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_engu",
+      "culture": "Empire",
+      "theme": "Engu",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_knights",
+      "culture": "Empire",
+      "theme": "Knights",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_riverfolk",
+      "culture": "Empire",
+      "theme": "Riverfolk",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_loranti",
+      "culture": "Empire",
+      "theme": "Loranti",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_noble",
+      "culture": "Empire",
+      "theme": "Noble",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "empire_orel",
+      "culture": "Empire",
+      "theme": "Orel",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "kedashi_core",
+      "culture": "Kedashi",
+      "theme": "Core",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "mercenary",
+      "culture": "",
+      "theme": "Mercenary",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "wild_creature",
+      "culture": "",
+      "theme": "Wild Creature",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    }
+  ]
+}

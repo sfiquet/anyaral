@@ -16,9 +16,9 @@ export default function Home() {
 
         <h2 className="text-2xl text-center mt-12">Features currently available</h2>
         <div className="flex justify-center items-center flex-wrap mt-4 w-full sm:w-auto flex-col sm:flex-row max-w-3xl">
-          <a href="#" className={styles.card}>
+          <a href="/denizens/" className={styles.card}>
             <h3>Denizens <span aria-hidden="true">&rarr;</span></h3>
-            <p>Browse denizens of Anyaral by race.</p>
+            <p>Browse denizens of Anyaral by race</p>
           </a>
         </div>
       </main>

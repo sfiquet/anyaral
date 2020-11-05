@@ -1,0 +1,19 @@
+.details > summary {
+  --child-font-size: 1em;
+  --child-line-height: 1.5;
+  padding: calc((theme('minHeight.tap') - var(--child-font-size) * var(--child-line-height) )/2)  .25rem;
+}
+
+.details > summary > h2 {
+  display: inline; /* to align with summary marker */
+  font-size: var(--child-font-size); /* size must be set on the summary for the marker to scale */
+  line-height: var(--child-line-height);
+}
+
+.details > ul {
+  max-width: 20em;
+}
+
+.details > ul a {
+  padding: 0 .25rem 0 2em; /* padding-left is for indentation so proportional to the text size */
+}
