@@ -13,6 +13,12 @@ module.exports = {
       minWidth: {
         'tap': '48px',
       },
+      padding: {
+        // for layout on mobile
+        // when a large font is used on root, 1rem becomes too big for padding
+        '16px': '16px',
+        '32px': '32px',
+      },
     },
   },
   variants: {},

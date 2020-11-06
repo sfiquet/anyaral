@@ -9,7 +9,7 @@ export default function Layout({ children }) {
 
         <Header />
 
-        <div className="flex-grow flex py-8 px-4">
+        <div className="flex-grow py-32px">
           {children}
         </div>
 

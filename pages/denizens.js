@@ -1,4 +1,5 @@
 import Layout from '../components/layout'
+import Container from '../components/container'
 import { formatRace } from '../lib/format'
 
 import styles from '../styles/denizens.module.css'
@@ -60,17 +61,21 @@ export default function DenizenList({ races, creatures }){
 
   return (
     <Layout>
-      <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl">Denizens</h1>
+      <Container>
+        <div className="flex justify-center">
+          <div>
+            <h1 className="text-3xl">Denizens</h1>
 
-        <div id="nav-label" className="sr-only">Denizen selection</div>
-        <nav role="navigation" aria-labelledby="nav-label">
-          <ul>
-            {creaturesByRace.map(item => <li key={item.race}><RaceItem raceItem={item} /></li>)}
-          </ul>
-        </nav>
+            <div id="nav-label" className="sr-only">Denizen selection</div>
+            <nav role="navigation" aria-labelledby="nav-label">
+              <ul>
+                {creaturesByRace.map(item => <li key={item.race}><RaceItem raceItem={item} /></li>)}
+              </ul>
+            </nav>
 
-      </div>
+          </div>
+        </div>
+      </Container>
     </Layout>
   )
 }
