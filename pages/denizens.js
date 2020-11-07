@@ -8,7 +8,7 @@ import { getAllRaces, getAllCreatures } from '../lib/api';
 
 function DenizenItem({ denizen }){
   return (
-    <a href="#">
+    <a href={`/denizens/${denizen.code}`}>
       { denizen.name }
     </a>    
   )
@@ -64,7 +64,7 @@ export default function DenizenList({ races, creatures }){
       <Container>
         <div className="flex justify-center">
           <div>
-            <h1 className="text-3xl">Denizens</h1>
+            <h1>Denizens</h1>
 
             <div id="nav-label" className="sr-only">Denizen selection</div>
             <nav role="navigation" aria-labelledby="nav-label">

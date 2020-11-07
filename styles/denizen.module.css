@@ -1,0 +1,15 @@
+.typeList li {
+  display: inline;
+}
+
+.typeList li + li::before {
+  content: ' – ';
+}
+
+.tagline::before {
+  content: open-quote;
+}
+
+.tagline::after {
+  content: close-quote;
+}

@@ -35,4 +35,23 @@
   nav a, button {
     @apply flex items-center;
   }
+
+  h1 {
+    @apply text-3xl tracking-tighter;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+}
+
+@layer components {
+  .box {
+    @apply border border-solid border-gray-500 bg-gray-100;
+  }
 }

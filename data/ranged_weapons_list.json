@@ -1,0 +1,345 @@
+{
+  "version": {
+    "source": 27,
+    "script": "1.0.1"
+  },
+  "data": [
+    {
+      "code": "shell",
+      "name": "Shell",
+      "movement": 0,
+      "range": 999999,
+      "attack": 999999,
+      "abilities": [
+        [
+          "haphazard",
+          "",
+          ""
+        ],
+        [
+          "operated",
+          "2",
+          ""
+        ]
+      ],
+      "ruleMaturity": 2
+    },
+    {
+      "code": "longbow_2",
+      "name": "Longbow",
+      "movement": 3,
+      "range": 18,
+      "attack": 2,
+      "abilities": [
+        [
+          "accurate",
+          "",
+          ""
+        ],
+        [
+          "focus",
+          "",
+          ""
+        ],
+        [
+          "long_range",
+          "6",
+          ""
+        ],
+        [
+          "quick_shot",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "longbow",
+      "name": "Longbow",
+      "movement": 3,
+      "range": 18,
+      "attack": 2,
+      "abilities": [
+        [
+          "focus",
+          "",
+          ""
+        ],
+        [
+          "quick_shot",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "bow",
+      "name": "Bow",
+      "movement": 3,
+      "range": 9,
+      "attack": 2,
+      "abilities": [
+        [
+          "accurate",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "harpoon",
+      "name": "Harpoon",
+      "movement": 3,
+      "range": 9,
+      "attack": 2,
+      "abilities": [
+        [
+          "accurate",
+          "",
+          ""
+        ],
+        [
+          "powerful",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "throwing_spear",
+      "name": "Throwing Spear",
+      "movement": 8,
+      "range": 4,
+      "attack": 2,
+      "abilities": [
+        [
+          "bushwack",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "throwing_spear_2",
+      "name": "Throwing Spear",
+      "movement": 8,
+      "range": 4,
+      "attack": 2,
+      "abilities": [
+        [
+          "bushwack",
+          "",
+          ""
+        ],
+        [
+          "focus",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "throw_stones",
+      "name": "Throw Stones",
+      "movement": 6,
+      "range": 6,
+      "attack": 2,
+      "abilities": [],
+      "ruleMaturity": 1
+    },
+    {
+      "code": "experimental_derak",
+      "name": "Experimental Derak",
+      "movement": 0,
+      "range": 999997,
+      "attack": 4,
+      "abilities": [
+        [
+          "point_blank",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "sling",
+      "name": "Sling",
+      "movement": 3,
+      "range": 8,
+      "attack": 2,
+      "abilities": [],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "staff_sling",
+      "name": "Staff Sling",
+      "movement": 3,
+      "range": 18,
+      "attack": 2,
+      "abilities": [],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "staff_sling_2",
+      "name": "Staff Sling",
+      "movement": 3,
+      "range": 18,
+      "attack": 2,
+      "abilities": [
+        [
+          "accurate",
+          "",
+          ""
+        ],
+        [
+          "quick_shot",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "crossbow",
+      "name": "Crossbow",
+      "movement": 1,
+      "range": 12,
+      "attack": 2,
+      "abilities": [
+        [
+          "accurate",
+          "",
+          ""
+        ],
+        [
+          "powerful",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "heavy_kalmalog_gun",
+      "name": "Guns",
+      "movement": 0,
+      "range": 12,
+      "attack": 1,
+      "abilities": [
+        [
+          "ferocity",
+          "",
+          ""
+        ],
+        [
+          "long_range",
+          "6",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "empire_spear",
+      "name": "Spear",
+      "movement": 10,
+      "range": 4,
+      "attack": 3,
+      "abilities": [
+        [
+          "light_weapon",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "devanu_spear",
+      "name": "Spear",
+      "movement": 8,
+      "range": 8,
+      "attack": 2,
+      "abilities": [
+        [
+          "focus",
+          "",
+          ""
+        ],
+        [
+          "light_weapon",
+          "",
+          ""
+        ],
+        [
+          "long_range",
+          "4",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "light_derak",
+      "name": "Light Derak",
+      "movement": 3,
+      "range": 999997,
+      "attack": 3,
+      "abilities": [
+        [
+          "point_blank",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "derakar",
+      "name": "Derakar",
+      "movement": 0,
+      "range": 12,
+      "attack": 2,
+      "abilities": [
+        [
+          "long_range",
+          "4",
+          ""
+        ],
+        [
+          "quick_shot",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    },
+    {
+      "code": "gushrak",
+      "name": "Gushrak",
+      "movement": 3,
+      "range": 999997,
+      "attack": 2,
+      "abilities": [
+        [
+          "focus",
+          "",
+          ""
+        ],
+        [
+          "wide_spray",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 0
+    }
+  ]
+}

@@ -26,7 +26,7 @@ export default function Home() {
 
       <main className="flex flex-col justify-evenly items-center space-y-12">
         <div className="space-y-4">
-          <h1 className="text-3xl text-center">
+          <h1 className="text-center tracking-tight">
             Welcome
           </h1>
 
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <div className="space-y-4">
-          <h2 className="text-2xl text-center">Features currently available:</h2>
+          <h2 className="text-center text-xl">Features currently available:</h2>
 
           {/*<div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full sm:w-auto max-w-3xl">*/}
           {/* temporary one-column grid while there's only one option */}
