@@ -1,3 +1,4 @@
+const { screens } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   future: {
@@ -6,6 +7,10 @@ module.exports = {
   },
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      'xs': '500px',
+      ...screens,
+    },
     extend: {
       minHeight: {
         'tap': '48px',

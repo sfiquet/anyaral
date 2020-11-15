@@ -54,4 +54,8 @@
   .box {
     @apply border border-solid border-gray-500 bg-gray-100;
   }
+
+  .js .js-hide {
+    @apply hidden;
+  }
 }
