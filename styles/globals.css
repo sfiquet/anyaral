@@ -26,13 +26,13 @@
   }
   
   /* make tap targets big enough */
-  nav a, button, summary {
+  nav a, footer a, button, summary {
     @apply box-border min-w-tap min-h-tap;
   }
 
   /* center tap targets vertically  but not summary */
   /* summary doesn't work well with display: flex on Safari */
-  nav a, button {
+  nav a, footer a, button {
     @apply flex items-center;
   }
 
