@@ -104,7 +104,7 @@ function DenizenWeapon({ weapon }){
   if (weapon.abilities.length > 0){
     abilities = (
       <div className="p-8px">
-        <h3 className="sr-only">{ weapon.name } Abilities</h3>
+        <h3 className="sr-only">{`${weapon.name} Abilities`}</h3>
         <AbilityList abilities={ weapon.abilities } />
       </div>
     )
@@ -115,7 +115,7 @@ function DenizenWeapon({ weapon }){
       <h2 className="px-16px pt-16px pb-0 text-center">{ weapon.name }</h2>
       <div className="p-8px flex flex-wrap justify-between sm:justify-evenly">
         <div className="p-8px">
-          <h3 className="sr-only">{ weapon.name } Stats</h3>
+          <h3 className="sr-only">{`${weapon.name} Stats`}</h3>
           <StatGrid>
             <Stat name="Movement" value={ formatStat(weapon.movement, '"') } />
             <Stat name="Range" value={ formatStat(weapon.range, '"') } />

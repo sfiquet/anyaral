@@ -7,7 +7,9 @@ export default function DenizenPage({ denizen }){
   return (
     <Layout>
       <Container>
-        <Denizen denizen={denizen} />
+        <main>
+          <Denizen denizen={denizen} />
+        </main>
       </Container>
     </Layout>
   )
