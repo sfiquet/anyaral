@@ -28,7 +28,7 @@ function GitHubIcon(props){
 
 function SocialMediaLink({ url, children }){
   return (
-    <a href={ url } className="text-gray-600 hover:text-blue-700 fill-current justify-center">
+    <a href={ url } className="text-gray-600 fill-current justify-center">
       { children }
     </a>
   )

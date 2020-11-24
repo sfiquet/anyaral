@@ -14,10 +14,14 @@
 
   html,
   body {
-    @apply p-0 font-sans;
+    @apply p-0 font-sans text-gray-900;
   }
   
   a {
+    @apply text-blue-700;
+  }
+  
+  a:hover, a:focus {
     @apply text-blue-700;
   }
 
