@@ -14,7 +14,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className="nojs">
+      <Html className="nojs" lang="en">
         <Head>
           <script dangerouslySetInnerHTML={{ __html: swapClassScript }} />
         </Head>
