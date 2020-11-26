@@ -1,13 +1,14 @@
 import { getAllCreatures, getCreature } from '../../lib/api'
 import Layout from '../../components/layout'
 import Container from '../../components/container'
-import Denizen from '../../components/denizen'
+import Denizen, { DenizenHead } from '../../components/denizen'
 
 export default function DenizenPage({ denizen }){
   return (
     <Layout>
       <Container>
         <main>
+          <DenizenHead denizen={denizen} />
           <Denizen denizen={denizen} />
         </main>
       </Container>

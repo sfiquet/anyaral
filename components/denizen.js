@@ -1,3 +1,5 @@
+import Meta from '../components/meta'
+
 import { formatStat, formatSize, formatRace, formatAbility } from '../lib/format'
 import styles from '../styles/denizen.module.css'
 
@@ -137,6 +139,33 @@ function DenizenFooter({ race, cost }){
     
       <div className="flex flex-col justify-center items-center"><span>Cost</span> <span className="text-xl"><StatValue value={ formatStat(cost) } /></span></div>
     </footer>
+  )
+}
+
+export function DenizenHead({ denizen }){
+  let description = `Race: ${ formatRace(denizen.race) }`
+  description += `, Cost: ${ formatStat(denizen.cost) }`
+  description += `, Types: ${ denizen.types.join(' - ') }`
+  description += `, Movement: ${ formatStat(denizen.movement, '"') }`
+  description += `, Attack: ${ formatStat(denizen.attack) }`
+  description += `, Support: ${ formatStat(denizen.support) }`
+  description += `, Save: ${ formatStat(denizen.save, '+') }`
+  description += `, CR: ${ formatStat(denizen.commandRange, '"') }`
+  if (denizen.stamina > 0){
+    description += `, Stamina: ${ formatStat(denizen.stamina) }`
+  }
+  if (denizen.abilities.length > 0){
+    description += `, Abilities: ${ denizen.abilities.map(ability => formatAbility(ability.rule, ability.param1, ability.param2)).join(' - ')}`
+  }
+  if (denizen.rangedWeapon){
+    description += `, Ranged Weapon: ${ denizen.rangedWeapon.name }`
+  }
+
+  return (
+    <Meta options={{
+      title: denizen.name,
+      description,
+    }} />
   )
 }
 
