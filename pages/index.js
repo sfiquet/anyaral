@@ -47,24 +47,19 @@ export default function Home() {
     <HomeLayout>
 
       <main className="flex flex-col justify-evenly items-center space-y-12">
-        <div className="space-y-4">
-          <h1 className="text-center tracking-tight text-4xl">
-            Welcome
+        <div className="space-y-8">
+          <h1 className="text-center tracking-tight text-5xl sm:text-6xl">
+            Streamline Your Game
           </h1>
 
-          <p className="text-xl text-center">
-            {appName} is a reference app for players of <a href="http://worldoftwilight.com">World of Twilight</a>.
-          </p>
+          <h2 className="text-center text-xl sm:text-2xl">
+            Keep on top of <a href="http://worldoftwilight.com">World of Twilight</a> rules with {appName}
+          </h2>
         </div>
 
-        <div className="space-y-4">
-          <h2 className="text-center text-3xl">Features</h2>
-          <FeatureList>
-            <FeatureListItem title="Denizens" description="Browse denizens of Anyaral by race" 
-              url="/denizens/" uid="feat-denizens" />
-          </FeatureList>
-        </div>
-
+        <a className="block py-2 px-4 rounded bg-blue-700 hover:bg-blue-600 text-white hover:text-white" href="/denizens/">
+          <h3 className="text-xl sm:text-2xl">See all denizens</h3>
+        </a>
       </main>
 
     </HomeLayout>
