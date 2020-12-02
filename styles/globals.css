@@ -80,4 +80,17 @@
   .js .js-hide {
     @apply hidden;
   }
+
+  .markdown {
+    @apply text-base leading-relaxed
+  }
+  .markdown h2 {
+    @apply mt-8 mb-4 leading-snug
+  }
+  .markdown h3 {
+    @apply mt-6 mb-4 leading-snug
+  }
+  .markdown p {
+    @apply my-4
+  }
 }

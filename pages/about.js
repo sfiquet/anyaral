@@ -3,7 +3,9 @@ import Layout from '../components/layout'
 import Container from '../components/container'
 import Meta from '../components/meta'
 
-function About(){
+import getHtmlFromMarkdownFile from '../lib/markdown'
+
+export default function About({ content }){
   const title = `About ${appName}`
   return (
     <Layout>
@@ -13,19 +15,16 @@ function About(){
           nakedTitle: true,
           // no specific description, use the site default
         }} />
-        <main className="space-y-4">
+        <main className="space-y-8">
           <h1>{title}</h1>
-          <p>
-            This site is a prototype for a <a href="http://worldoftwilight.com">World of Twilight</a> reference. Currently the purpose is to gather feedback on what players need.
-          </p>
-          <p>
-            Please get in touch and tell me what works, what doesn't, and which new features would make it really special.
-          </p>
+          <div className="markdown" dangerouslySetInnerHTML={{__html: content}} />
         </main>
       </Container>
     </Layout>
   );
 }
 
-export default About;
-
+export async function getStaticProps(){
+  let content = getHtmlFromMarkdownFile('about.md')
+  return { props: { content } }
+}
