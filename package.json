@@ -10,6 +10,7 @@
   "dependencies": {
     "marked": "^1.2.5",
     "next": "10.0.0",
+    "next-build-id": "^3.0.0",
     "next-pwa": "^5.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
