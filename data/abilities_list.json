@@ -1,6 +1,6 @@
 {
   "version": {
-    "source": 74,
+    "source": 84,
     "script": "1.0.1"
   },
   "data": [
@@ -357,6 +357,17 @@
       "simulatorRelevant": false
     },
     {
+      "code": "crunch",
+      "name": "Crunch",
+      "modifier": "[[X]]",
+      "type": "Combat",
+      "staminaCost": 0,
+      "rule": "Cast an extra [[X]] erac stones when attacking (as opposed to being attacked).",
+      "ruleMaturity": 1,
+      "solo": false,
+      "simulatorRelevant": false
+    },
+    {
       "code": "defender",
       "name": "Defender",
       "modifier": "",
@@ -518,6 +529,17 @@
       "staminaCost": 1,
       "rule": "Use before an attack. Cast an additional Combat Stone against all models targeted by this attack.",
       "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false
+    },
+    {
+      "code": "frighten",
+      "name": "Frighten",
+      "modifier": "",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "Any model within Command Range is stunned.",
+      "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false
     },
@@ -799,7 +821,7 @@
     {
       "code": "operated",
       "name": "Operated",
-      "modifier": "",
+      "modifier": "[[X]]",
       "type": "Trait",
       "staminaCost": 0,
       "rule": "This model may be fired at the end of the turn if they did not move and there are least [[X]] unengaged friendly models adjacent to it.",
@@ -947,6 +969,17 @@
       "staminaCost": 0,
       "rule": "If this model ends its move more than 4” from its starting position during its turn it gains Powerful until the end of the next Combat Phase. Blows landed by a model with the Powerful trait are saved with a -1 modifier.",
       "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false
+    },
+    {
+      "code": "prod",
+      "name": "Prod",
+      "modifier": "[[X]],[[Y]]",
+      "type": "Activation",
+      "staminaCost": 0,
+      "rule": "Select a beast within [[X]]” and move it up to [[Y]]” directly away from this model.",
+      "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false
     },
@@ -1261,7 +1294,7 @@
     {
       "code": "solo_follow",
       "name": "Follow",
-      "modifier": "X",
+      "modifier": "[[X]]",
       "type": "Activation",
       "staminaCost": 0,
       "rule": "Aim to move to be [[X]]” away from the nearest player model.",
@@ -1468,6 +1501,17 @@
       "simulatorRelevant": false
     },
     {
+      "code": "stun",
+      "name": "Stun",
+      "modifier": "",
+      "type": "Combat",
+      "staminaCost": 0,
+      "rule": "If any blows are landed by this attack, the attacked model is stunned. Roll to remove the effect on a 4+ at the start of the end phase.",
+      "ruleMaturity": 1,
+      "solo": false,
+      "simulatorRelevant": false
+    },
+    {
       "code": "super_heavy_vehicle",
       "name": "Super Heavy Vehicle",
       "modifier": "",
@@ -1655,6 +1699,17 @@
       "simulatorRelevant": false
     },
     {
+      "code": "very_powerful",
+      "name": "Very Powerful",
+      "modifier": "",
+      "type": "Combat",
+      "staminaCost": 0,
+      "rule": "Any blows that are landed by this model must be saved with a -2 modifier.",
+      "ruleMaturity": 1,
+      "solo": false,
+      "simulatorRelevant": true
+    },
+    {
       "code": "very_strong",
       "name": "Very Strong",
       "modifier": "",
@@ -1682,7 +1737,7 @@
       "modifier": "",
       "type": "Combat",
       "staminaCost": 0,
-      "rule": "Blows landed why this model are saved with a +1 modifier.",
+      "rule": "Blows landed by this model are saved with a +1 modifier.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true
