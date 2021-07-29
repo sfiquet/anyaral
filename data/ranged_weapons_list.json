@@ -1,6 +1,6 @@
 {
   "version": {
-    "source": 30,
+    "source": 31,
     "script": "1.0.1"
   },
   "data": [
@@ -8,7 +8,7 @@
       "code": "spit_poison",
       "name": "Spit Poison",
       "movement": 6,
-      "range": 999994,
+      "range": 999997,
       "attack": 3,
       "abilities": [
         [
