@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/layout'
 import Container from '../components/container'
 import Meta from '../components/meta'
@@ -9,9 +10,9 @@ import { getAllRaces, getAllCreatures } from '../lib/api';
 
 function DenizenItem({ denizen }){
   return (
-    <a href={`/denizens/${denizen.code}`}>
-      { denizen.name }
-    </a>    
+    <Link href={`/denizens/${denizen.code}`}>
+      <a>{ denizen.name }</a>
+    </Link>
   )
 }
 

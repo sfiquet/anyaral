@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { appName } from '../app.config.js'
 
@@ -14,7 +15,11 @@ function ToggleButton({ expanded, controlledId, onClick }){
 
 function MenuItem({ url, children }){
   return(
-    <li><a className="justify-center text-current" href={ url }>{ children }</a></li>
+    <li>
+      <Link  href={ url }>
+        <a className="justify-center text-current">{ children }</a>
+      </Link>
+    </li>
   )
 }
 
@@ -41,7 +46,9 @@ function MainNav(){
 
   return (
     <nav aria-label="Main" role="navigation" className={`${navLayout} flex flex-wrap sm:justify-between items-center mt-2 max-w-3xl mx-auto px-16px sm:px-4`}>
-      <a className="text-3xl text-gray-800 font-light tracking-tighter mb-2 mr-4" href="/">{appName}</a>
+      <Link href="/">
+        <a className="text-3xl text-gray-800 font-light tracking-tighter mb-2 mr-4">{appName}</a>
+      </Link>
       
       {env === 'client' && 
         <ToggleButton expanded={isOpen} controlledId={navMenuId} onClick={ () => setIsOpen(!isOpen) } />
