@@ -1,9 +1,34 @@
 {
   "version": {
-    "source": 27,
+    "source": 31,
     "script": "1.0.1"
   },
   "data": [
+    {
+      "code": "spit_poison",
+      "name": "Spit Poison",
+      "movement": 6,
+      "range": 999997,
+      "attack": 3,
+      "abilities": [
+        [
+          "point_blank",
+          "",
+          ""
+        ],
+        [
+          "stun",
+          "",
+          ""
+        ],
+        [
+          "weak",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 1
+    },
     {
       "code": "shell",
       "name": "Shell",

@@ -1,7 +1,7 @@
 {
   "version": {
-    "source": 40,
-    "script": "1.0.0"
+    "source": 43,
+    "script": "1.0.1"
   },
   "data": [
     {
@@ -53,6 +53,17 @@
       "initiative": 3
     },
     {
+      "code": "casanii_alaim",
+      "culture": "Casanii",
+      "theme": "Alaim",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
       "code": "delgon_core",
       "culture": "Delgon",
       "theme": "Core",
@@ -69,6 +80,19 @@
       "code": "delgon_dehran",
       "culture": "Delgon",
       "theme": "Dehran",
+      "allies": [
+        "dhogu_core"
+      ],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3
+    },
+    {
+      "code": "delgon_egolan",
+      "culture": "Delgon",
+      "theme": "Egolan",
       "allies": [
         "dhogu_core"
       ],

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { appName } from '../app.config.js'
 import Meta from '../components/meta'
 import Header from '../components/header'
@@ -34,9 +35,11 @@ function FeatureListItem({ title, description, url, uid }){
   let descId = `${uid}-desc`
   return (
     <li id={ uid } className="text-center p-6 border border-solid border-gray-300 rounded-xl transition-colors duration-150 ease-in-out hover:border-blue-400">
-      <a href={ url } aria-describedby={ descId }>
-        <h3 className="mb-4 text-2xl" aria-label={ title }>{`${title} →`}</h3>
-      </a>
+      <Link href={ url }>
+        <a aria-describedby={ descId }>
+          <h3 className="mb-4 text-2xl" aria-label={ title }>{`${title} →`}</h3>
+        </a>
+      </Link>
       <p id={ descId } className="text-xl">{ description }</p>
     </li>
   )
@@ -57,9 +60,11 @@ export default function Home() {
           </h2>
         </div>
 
-        <a className="block py-2 px-4 rounded bg-blue-700 hover:bg-blue-600 text-white hover:text-white" href="/denizens/">
-          <h3 className="text-xl sm:text-2xl">See all denizens</h3>
-        </a>
+        <Link href="/denizens/">
+          <a className="block py-2 px-4 rounded bg-blue-700 hover:bg-blue-600 text-white hover:text-white">
+            <h3 className="text-xl sm:text-2xl">See all denizens</h3>
+          </a>
+        </Link>
       </main>
 
     </HomeLayout>
