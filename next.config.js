@@ -1,11 +1,6 @@
 const withPWA = require('next-pwa')
 const nextBuildId = require('next-build-id')
 
-// set up properties used in next-pwa code to precache the public folder
-const subdomainPrefix = ''
-const publicExcludes = []
-const sw = 'sw.js'
-
 // ** adapted from next-pwa index.js since it doesn't set up its own entries when additionalManifestEntries is specified
 const path = require('path')
 const fs = require('fs')
@@ -17,6 +12,12 @@ const getFileRevision = file => getRevision(fs.readFileSync(file))
 
 // precache files in public folder
 function getStaticPrecacheEntries(){
+  // set up properties used in next-pwa code to precache the public folder
+  // Since we currently use the defaults, there is no need to pass them to withPWA
+  const basePath = '/'
+  const publicExcludes = []
+  const sw = 'sw.js'
+
   let manifestEntries = globby
   .sync(
     [
@@ -36,7 +37,7 @@ function getStaticPrecacheEntries(){
     }
   )
   .map(f => ({
-    url: path.posix.join(subdomainPrefix, `/${f}`),
+    url: path.posix.join(basePath, `/${f}`),
     revision: getFileRevision(`public/${f}`)
   }))
   return manifestEntries
@@ -58,23 +59,86 @@ function getAllCreatures(){
   // version checking would take place here if needed
   return rawObj.data;
 }
+// end of utility functions from lib/api.js
 
 // extract the list of all denizen pages
 function getDenizenPages(){
-  let denizenPath = '/denizens/'
-  let buildId = nextBuildId.sync()
-  let denizens = getAllCreatures()
-  let htmlEntries = denizens.map(denizen => ({
-    url: path.posix.join(denizenPath, denizen.code),
+  let denizens = getAllCreatures();
+  return denizens.map(denizen => denizen.code);
+}
+
+const pages = [
+  {
+    route: '/',
+    precacheHtml: true,
+    precacheJson: false, // no props
+  },
+  {
+    route: '/about',
+    precacheHtml: false,
+    precacheJson: true,
+  },
+  {
+    route: '/denizens',
+    precacheHtml: false,
+    precacheJson: true,
+  },
+  {
+    route: '/denizens/',
+    precacheHtml: false,
+    precacheJson: true,
+    dynamicPages: getDenizenPages(),
+  },
+];
+
+function getPageJSONPath(buildId, pageRoute){
+  return path.posix.join('/_next/data/', buildId, `${pageRoute}.json`);
+}
+
+function getJSONEntry(buildId, pageRoute){
+  return {
+    url: getPageJSONPath(buildId, pageRoute),
+    revision: null,
+  };
+}
+
+function getHTMLEntry(buildId, pageRoute){
+  return {
+    url: pageRoute,
     revision: buildId,
-  }))
-  //console.log('htmlEntries', htmlEntries)
-  return htmlEntries
+  };
+}
+
+function getNormalPageEntries(buildId, page){
+  let entries = [];
+  if (page.precacheHtml){
+    entries.push(getHTMLEntry(buildId, page.route));
+  }
+  if (page.precacheJson){
+    entries.push(getJSONEntry(buildId, page.route));
+  }
+  return entries;
+}
+
+function getDynamicPageEntries(buildId, page){
+  let pageList = page.dynamicPages.map(actualPage => path.posix.join(page.route, actualPage));
+  let entries = pageList.map(route => getNormalPageEntries(
+    buildId, { route: route, precacheHtml: page.precacheHtml, precacheJson: page.precacheJson })
+  );
+  return entries.reduce((acc, curr) => acc.concat(curr), []);
+}
+
+function getPageEntries(buildId, page){
+  if (Array.isArray(page.dynamicPages)){
+    return getDynamicPageEntries(buildId, page);
+  } else {
+    return getNormalPageEntries(buildId, page);
+  }
 }
 
 function getGeneratedPrecacheEntries(){
-  // TO DO: add other pages
-  return getDenizenPages()
+  const buildId = nextBuildId.sync();
+  return pages.map(page => getPageEntries(buildId, page)).reduce((acc, curr) => acc.concat(curr), []);
 }
 
 module.exports = withPWA({
@@ -82,8 +146,5 @@ module.exports = withPWA({
   pwa: {
     dest: 'public',
     additionalManifestEntries: [...getStaticPrecacheEntries(), ...getGeneratedPrecacheEntries()],
-    subdomainPrefix,
-    publicExcludes,
-    sw,
   }
 })
