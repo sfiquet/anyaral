@@ -55,8 +55,8 @@ function MainNav(){
       }
       
       <ul id={navMenuId} className={`${listDisplay} w-full xs:w-3/5 sm:w-auto flex-col sm:flex sm:flex-row sm:space-x-4 mb-4 sm:mb-2 border sm:border-0 border-solid border-gray-500 bg-gray-100 sm:bg-opacity-0 divide-y sm:divide-y-0 divid-gray-500`}>
-        <MenuItem url="/denizens/">Denizens</MenuItem>
-        <MenuItem url="/about/">About</MenuItem>
+        <MenuItem url="/denizens">Denizens</MenuItem>
+        <MenuItem url="/about">About</MenuItem>
       </ul>
     </nav>
   )
