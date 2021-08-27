@@ -15,9 +15,14 @@ function getStaticPrecacheEntries(){
   // set up properties used in next-pwa code to precache the public folder
   // Since we currently use the defaults, there is no need to pass them to withPWA
   const basePath = '/'
-  const publicExcludes = []
   const sw = 'sw.js'
-
+  // exclude icon-related files from the precache since they are platform specific
+  // note: no need to pass publicExcludes to next-pwa, it's not used for anything else
+  const publicExcludes = [
+    '!*.png',
+    '!*.ico',
+    '!browserconfig.xml',
+  ]
   let manifestEntries = globby
   .sync(
     [
