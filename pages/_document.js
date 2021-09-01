@@ -24,7 +24,7 @@ class MyDocument extends Document {
           <meta name='apple-mobile-web-app-title' content={appName} />
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='yes' />
-          <meta name='theme-color' content='#FFFFFF' />
+          <meta name='theme-color' content='#2C7A7B' />
           <meta name="msapplication-TileColor" content="#ffc40d" />
           <link rel='manifest' href='/manifest.json' />
           <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
