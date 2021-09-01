@@ -3,9 +3,11 @@
   "short_name": "Anyaral",
   "theme_color": "#2C7A7B",
   "background_color": "#FFFFFF",
-  "start_url": "/",
+  "start_url": "/denizens",
+  "scope": "/",
+  "display_override": ["minimal-ui"],
   "display": "standalone",
-  "orientation": "portrait",
+  "orientation": "any",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
