@@ -16,7 +16,11 @@ The app does not collect any personal information. It does not track you with an
 Our host platform collects data to monitor the performance of the pages but that data is anonymous and is not tied to any individual visitor or IP address.
 
 ### Does the app work offline?
-Not yet, but it’s in the pipeline. Being able to use the app offline would make a big difference when playing where internet access is unreliable, e.g. at gaming events.
+Yes, in most cases. The app is now implemented as a Progressive Web Application (PWA), which allows it to work offline. You can also use your phone's Add to Home Screen functionality to install it as a stand-alone app.
+
+Note that PWA features have been implemented to varying degrees by different browsers so your mileage may vary. Old browsers and operating systems might not support them at all.
+
+PWA features will not work if Javascript is disabled.
 
 ### How can I try the iPhone app?
 The iPhone app is being actively developed and has not been released on the AppStore yet. In order to try it you need to install TestFlight from the AppStore, then [join the beta test](https://testflight.apple.com/join/yx9TdjFQ).
