@@ -75,7 +75,7 @@ function getDenizenPages(){
 const pages = [
   {
     route: '/',
-    precacheHtml: true,
+    precacheHtml: false, // next-pwa already caches the home page
     precacheJson: false, // no props
   },
   {
@@ -85,7 +85,7 @@ const pages = [
   },
   {
     route: '/denizens',
-    precacheHtml: false,
+    precacheHtml: true, // this is now the start url for A2HS
     precacheJson: true,
   },
   {
@@ -151,5 +151,6 @@ module.exports = withPWA({
   pwa: {
     dest: 'public',
     additionalManifestEntries: [...getStaticPrecacheEntries(), ...getGeneratedPrecacheEntries()],
+    dynamicStartUrl: false, // precache home page instead of storing it in runtime cache by default
   }
 })
