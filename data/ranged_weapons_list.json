@@ -1,6 +1,6 @@
 {
   "version": {
-    "source": 31,
+    "source": 34,
     "script": "1.0.1"
   },
   "data": [
@@ -9,6 +9,7 @@
       "name": "Spit Poison",
       "movement": 6,
       "range": 999997,
+      "minimumRange": 0,
       "attack": 3,
       "abilities": [
         [
@@ -33,8 +34,9 @@
       "code": "shell",
       "name": "Shell",
       "movement": 0,
-      "range": 999999,
-      "attack": 999999,
+      "range": 24,
+      "minimumRange": 12,
+      "attack": 2,
       "abilities": [
         [
           "haphazard",
@@ -45,6 +47,16 @@
           "operated",
           "2",
           ""
+        ],
+        [
+          "powerful",
+          "",
+          ""
+        ],
+        [
+          "death_from_above",
+          "",
+          ""
         ]
       ],
       "ruleMaturity": 2
@@ -54,6 +66,7 @@
       "name": "Longbow",
       "movement": 3,
       "range": 18,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -84,6 +97,7 @@
       "name": "Longbow",
       "movement": 3,
       "range": 18,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -104,6 +118,7 @@
       "name": "Bow",
       "movement": 3,
       "range": 9,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -119,6 +134,7 @@
       "name": "Harpoon",
       "movement": 3,
       "range": 9,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -138,6 +154,7 @@
       "code": "throwing_spear",
       "name": "Throwing Spear",
       "movement": 8,
+      "minimumRange": 0,
       "range": 4,
       "attack": 2,
       "abilities": [
@@ -153,6 +170,7 @@
       "code": "throwing_spear_2",
       "name": "Throwing Spear",
       "movement": 8,
+      "minimumRange": 0,
       "range": 4,
       "attack": 2,
       "abilities": [
@@ -173,6 +191,7 @@
       "code": "throw_stones",
       "name": "Throw Stones",
       "movement": 6,
+      "minimumRange": 0,
       "range": 6,
       "attack": 2,
       "abilities": [],
@@ -183,6 +202,7 @@
       "name": "Experimental Derak",
       "movement": 0,
       "range": 999997,
+      "minimumRange": 0,
       "attack": 4,
       "abilities": [
         [
@@ -198,6 +218,7 @@
       "name": "Sling",
       "movement": 3,
       "range": 8,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [],
       "ruleMaturity": 0
@@ -207,6 +228,7 @@
       "name": "Staff Sling",
       "movement": 3,
       "range": 18,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [],
       "ruleMaturity": 0
@@ -216,6 +238,7 @@
       "name": "Staff Sling",
       "movement": 3,
       "range": 18,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -236,6 +259,7 @@
       "name": "Crossbow",
       "movement": 1,
       "range": 12,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -256,6 +280,7 @@
       "name": "Guns",
       "movement": 0,
       "range": 12,
+      "minimumRange": 0,
       "attack": 1,
       "abilities": [
         [
@@ -275,6 +300,7 @@
       "code": "empire_spear",
       "name": "Spear",
       "movement": 10,
+      "minimumRange": 0,
       "range": 4,
       "attack": 3,
       "abilities": [
@@ -291,6 +317,7 @@
       "name": "Spear",
       "movement": 8,
       "range": 8,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -316,6 +343,7 @@
       "name": "Light Derak",
       "movement": 3,
       "range": 999997,
+      "minimumRange": 0,
       "attack": 3,
       "abilities": [
         [
@@ -331,6 +359,7 @@
       "name": "Derakar",
       "movement": 0,
       "range": 12,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
@@ -351,6 +380,7 @@
       "name": "Gushrak",
       "movement": 3,
       "range": 999997,
+      "minimumRange": 0,
       "attack": 2,
       "abilities": [
         [
