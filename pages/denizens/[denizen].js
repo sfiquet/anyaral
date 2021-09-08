@@ -1,4 +1,4 @@
-import { getAllCreatures, getCreature } from '../../lib/api'
+import { dataTypes, getAllData, getCreature } from '../../lib/data'
 import Layout from '../../components/layout'
 import Container from '../../components/container'
 import Denizen, { DenizenHead } from '../../components/denizen'
@@ -22,7 +22,7 @@ export async function getStaticProps({ params }){
 }
 
 export async function getStaticPaths(){
-  let denizens = getAllCreatures();
+  let denizens = getAllData(dataTypes.creature);
   
   let paths = denizens.map(denizen => ({
     params: { denizen: denizen.code }

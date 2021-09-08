@@ -6,7 +6,7 @@ import { formatRace } from '../lib/format'
 
 import styles from '../styles/denizens.module.css'
 
-import { getAllRaces, getAllCreatures } from '../lib/api';
+import { getAllItems, dataTypes } from '../lib/data'
 
 function DenizenItem({ denizen }){
   return (
@@ -87,8 +87,18 @@ export default function DenizenList({ races, creatures }){
 }
 
 export async function getStaticProps() {
-  let races = getAllRaces();
-  let creatures = getAllCreatures();
+  const raceKeys = [
+    'code',
+    'culture',
+    'theme',    
+  ]
+  const creatureKeys = [
+    'code',
+    'name',
+    'race',
+  ]
+  let races = getAllItems(dataTypes.race, raceKeys);
+  let creatures = getAllItems(dataTypes.creature, creatureKeys);
 
   return {
     props: {
