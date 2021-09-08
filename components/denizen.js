@@ -1,7 +1,7 @@
 import Meta from '../components/meta'
 
 import { Section, H } from '../components/heading'
-import { formatStat, formatSize, formatRace, formatAbility, formatAbilityRule } from '../lib/format'
+import { formatStat, formatRange, formatSize, formatRace, formatAbility, formatAbilityRule } from '../lib/format'
 import styles from '../styles/denizen.module.css'
 
 function StatValue({ value }){
@@ -124,7 +124,7 @@ function DenizenWeapon({ weapon }){
           <H className="sr-only">{`${weapon.name} Stats`}</H>
           <StatGrid>
             <Stat name="Movement" value={ formatStat(weapon.movement, '"') } />
-            <Stat name="Range" value={ formatStat(weapon.range, '"') } />
+            <Stat name="Range" value={ formatRange(weapon.range, weapon.minimumRange) } />
             <Stat name="Attack" value={ formatStat(weapon.attack) } />
           </StatGrid>
         </Section>
