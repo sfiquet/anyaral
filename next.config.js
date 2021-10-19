@@ -1,5 +1,5 @@
 const withPWA = require('next-pwa')
-const nextBuildId = require('next-build-id')
+const { nanoid } = require('nanoid')
 
 // ** adapted from next-pwa index.js since it doesn't set up its own entries when additionalManifestEntries is specified
 const path = require('path')
@@ -141,16 +141,19 @@ function getPageEntries(buildId, page){
   }
 }
 
-function getGeneratedPrecacheEntries(){
-  const buildId = nextBuildId.sync();
+function getGeneratedPrecacheEntries(buildId){
   return pages.map(page => getPageEntries(buildId, page)).reduce((acc, curr) => acc.concat(curr), []);
 }
 
+console.log('generating buildId')
+const buildId = nanoid()
+console.log(buildId)
+
 module.exports = withPWA({
-  generateBuildId: () => nextBuildId(),
+  generateBuildId: async () => buildId,
   pwa: {
     dest: 'public',
-    additionalManifestEntries: [...getStaticPrecacheEntries(), ...getGeneratedPrecacheEntries()],
+    additionalManifestEntries: [...getStaticPrecacheEntries(), ...getGeneratedPrecacheEntries(buildId)],
     dynamicStartUrl: false, // precache home page instead of storing it in runtime cache by default
   }
 })
