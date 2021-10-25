@@ -1,30 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Anyaral
+This is the codebase for the [Anyaral Toolbox](https://app.anyaraltoolbox.com) web app. It's a reference app for [World of Twilight](http://worldoftwilight.com), a table top skirmish war game.
 
-## Getting Started
+## Built with
+- [Next.js](https://nextjs.org/docs) - React framework
+- [Tailwind](https://v1.tailwindcss.com) - CSS framework
+- [next-pwa](https://github.com/shadowwalker/next-pwa) - PWA plugin for  Next.js
 
-First, run the development server:
+## Developing
+Pull requests are welcome. For anything other than bug fixes, please open an issue first to discuss what you would like to change.
+
+### Requirements
+- `Node.js` version 12 or later
+- `Yarn` version 1
+
+### How to run
+Install the dependencies:
+```bash
+yarn
+```
+
+Then run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### PWA precaching
+`next-pwa` doesn't perform precaching in development mode, so in order to test PWA precaching you need to build the production version.
 
-## Learn More
+1. Build the production version
+```bash
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. Run the production server
+```bash
+yarn start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Test on http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Things to keep in mind before making changes
+This responsive app is designed with progressive enhancement and accessibility in mind. Please respect those constraints.
 
-## Deploy on Vercel
+#### Responsive web design
+All pages should adapt to the screen width. Users can access the app on mobile, tablet or desktop.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### Progressive enhancement
+- The website works with JavaScript disabled
+- Enabling JavaScript uses NextJS's optimisations such as client-side navigation and prefetching
+- On platforms that support PWA, the website works offline and can be installed as a stand-alone app
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Accessibility
+The website should be as accessible as possible. The approach is to:
+- Use semantic HTML systematically
+- Research best practice: Not all commonly used solutions are accessible.
+- For CSS
+  - colours: should have enough contrast, ideally AAA, at least AA
+  - font size: user preferences should be respected
+- Test keyboard navigation
+- Test with a screen reader
+
+## License
+### World of Twilight assets
+This app uses original data and images from [World of Twilight](http://worldoftwilight.com), (c) Mike Thorp. This includes:
+- The contents of the `/data` folder
+- icons located in the `/public` folder
+
+### Source code
+The rest of the project is licensed under the [MIT license](https://choosealicense.com/licenses/mit/).
+
+## Acknowledgements
+This project is based on Fred Fiquet's [Anyaral Toolbox iOS app](https://www.anyaraltoolbox.com/ios/). 
+
+Thanks to Mike Thorp for his enthusiastic support.
