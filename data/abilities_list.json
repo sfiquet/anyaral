@@ -1,9 +1,23 @@
 {
   "version": {
-    "source": 90,
+    "source": 125,
     "script": "1.0.1"
   },
   "data": [
+    {
+      "code": "abject_terror",
+      "name": "Abject Terror",
+      "modifier": "",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "Any model within Command Range is stunned. A stunned model loses one Combat and one Support and does not recover stamina.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": ""
+    },
     {
       "code": "accurate",
       "name": "Accurate",
@@ -15,7 +29,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "aggressive",
@@ -28,7 +43,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "agile",
@@ -41,7 +57,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "agility",
@@ -54,7 +71,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "alpha",
@@ -67,7 +85,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "ambush",
@@ -76,11 +95,12 @@
       "type": "Special",
       "staminaCost": 0,
       "rule": "Do not deploy this model initially, but instead deploy a marker anywhere on the table. If there are any models within 6” of the marker at the start of a combat phase then immediately deploy this model so that its base covers the marker.",
-      "ruleMaturity": 1,
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "aquatic",
@@ -93,7 +113,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "aromatherapy",
@@ -106,7 +127,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "assassinate",
@@ -119,7 +141,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "assistant",
@@ -132,7 +155,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "authority",
@@ -141,6 +165,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly Troops or Civilians. Any Troops activated by this model may immediately activate up to four friendly Troops, who may not use any further Leadership Abilities.",
+      "smart_rule": "Activate up to [[X]] friendly Troop2{s} or Civilian2{s}. Any Troop2{s} activated by this model may immediately activate up to four friendly Troops, who may not use any further Leadership Abilities.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -154,6 +179,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly Beasts.",
+      "smart_rule": "Activate up to [[X]] friendly Beast2{s}.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -171,7 +197,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "bodyguard",
@@ -184,7 +211,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "bomb_carrier",
@@ -197,7 +225,22 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
+    },
+    {
+      "code": "bomber",
+      "name": "Bomber",
+      "modifier": "",
+      "type": "Activation",
+      "staminaCost": 0,
+      "rule": "If this model is adjacent to a model with the Bombcarrier ability then it may take one Ishkarru bomb. It may discard a bomb before making a Ranged Attack to cast an additional stone.",
+      "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false,
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "bushwack",
@@ -210,7 +253,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "cadre",
@@ -219,6 +263,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly models with the Cadre ability.",
+      "smart_rule": "Activate up to [[X]] friendly model2{s} with the Cadre ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -232,6 +277,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly Troops or Civilians.",
+      "smart_rule": "Activate up to [[X]] friendly Troop2{s} or Civilian2{s}.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -244,7 +290,8 @@
       "modifier": "[[X]]",
       "type": "Leadership",
       "staminaCost": 0,
-      "rule": "Activate up to [[X]] adjacent enemy civilians.",
+      "rule": "Activate up to [[X]] adjacent enemy Civilians.",
+      "smart_rule": "Activate up to [[X]] adjacent enemy Civilian2{s}.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -258,6 +305,7 @@
       "type": "Activation",
       "staminaCost": 0,
       "rule": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support but casts [[X]] additional Combat Stones. This ability may not be used if this model had to Move Cautiously.",
+      "smart_rule": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support but casts [[x]] additional Combat Stone2{s}. This ability may not be used if this model had to Move Cautiously.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -275,7 +323,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "combat_trained",
@@ -284,6 +333,7 @@
       "type": "Combat",
       "staminaCost": 0,
       "rule": "Recast up to [[X]] failed Combat Stones. Can be used once per combat.",
+      "smart_rule": "Recast up to [[X]] failed Combat Stone2{s}. Can be used once per combat.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true,
@@ -297,6 +347,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly or allied Elites, Troops or Civilians.",
+      "smart_rule": "Activate up to [[X]] friendly or allied Elite2{s}, Troop2{s} or Civilian2{s}.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -314,7 +365,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "concentrated_fire",
@@ -327,7 +379,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "confuse",
@@ -340,7 +393,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "coordinated_strike",
@@ -353,7 +407,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "coward",
@@ -366,7 +421,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "creator",
@@ -379,7 +435,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "crew",
@@ -388,6 +445,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly models with the Crew ability.",
+      "smart_rule": "Activate up to [[X]] friendly model2{s} with the Crew ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -405,7 +463,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "critter",
@@ -414,6 +473,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly models with the Critter ability.",
+      "smart_rule": "Activate up to [[X]] friendly model2{s} with the Critter ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -427,7 +487,8 @@
       "type": "Combat",
       "staminaCost": 0,
       "rule": "Cast an extra [[X]] erac stones when attacking (as opposed to being attacked).",
-      "ruleMaturity": 1,
+      "smart_rule": "Cast an extra [[X]] erac stone2{s} when attacking (as opposed to being attacked).",
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
@@ -444,7 +505,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "defender",
@@ -457,7 +519,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "defensive_line",
@@ -470,7 +533,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "defensive_stance",
@@ -483,7 +547,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "diplomat",
@@ -496,7 +561,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "dodge",
@@ -509,7 +575,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "evasive",
@@ -522,7 +589,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "explode",
@@ -530,12 +598,13 @@
       "modifier": "[[X]]",
       "type": "Special",
       "staminaCost": 0,
-      "rule": "If this model rolls a 1 on its Tough save, the bombs it was carrying all explode at once. Place a round template over the base: all models (partially) within it suffer a [[X]] CS ranged attack. No frenu can fetch bombs from this model from now on (ignore the model's Persistent trait if it had one).",
+      "rule": "If this model rolls a 1 on its Tough save, the bombs it was carrying all explode at once. Place a round template over the base: all models (partially) within it suffer a [[X]] CS Ranged Attack. No frenu can fetch bombs from this model from now on (ignore the model's Persistent trait if it had one).",
       "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "explodes",
@@ -543,12 +612,13 @@
       "modifier": "",
       "type": "Special",
       "staminaCost": 0,
-      "rule": "Whenever a model picks up this object, and at the start of any turn where it is carrying it, it must make a 2+ tough save or be removed as a casualty.",
-      "ruleMaturity": 1,
+      "rule": "Whenever a model picks up this object, and at the start of any activation where it is carrying it, it must make a 2+ tough save or be removed as a casualty.",
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "falconer",
@@ -557,6 +627,7 @@
       "type": "Trait",
       "staminaCost": 0,
       "rule": "This model is equipped with [[X]] falcons for free at the start of the game. Those models gain the Loyalty [T] ability for this model.",
+      "smart_rule": "This model is equipped with [[X]] falcon2{s} for free at the start of the game. 1{That model}2{Those models} gain1{s} the Loyalty [T] ability for this model.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -574,7 +645,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "feint",
@@ -587,7 +659,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "ferocity",
@@ -600,7 +673,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "flit",
@@ -613,7 +687,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "flying",
@@ -626,7 +701,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "focus",
@@ -639,20 +715,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
-    },
-    {
-      "code": "frighten",
-      "name": "Frighten",
-      "modifier": "",
-      "type": "Trait",
-      "staminaCost": 0,
-      "rule": "Any model within Command Range is stunned.",
-      "ruleMaturity": 2,
-      "solo": false,
-      "simulatorRelevant": false,
-      "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "fuel",
@@ -665,7 +729,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "gasmask",
@@ -678,7 +743,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "get_em",
@@ -686,12 +752,13 @@
       "modifier": "",
       "type": "Activation",
       "staminaCost": 1,
-      "rule": "Select one friendly Beast model within this model’s Command Range to fight a combat against an adjacent enemy model. Both sides may benefit from support.",
+      "rule": "Select one friendly Beast model within this model’s Command Range to initiate a Combat Action. Both sides may benefit from support.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "good_fortune",
@@ -704,7 +771,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "graku_master",
@@ -717,7 +785,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "grishak_trainer",
@@ -725,25 +794,13 @@
       "modifier": "[[X]],[[Y]]",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "At the start of the game, up to [[X]] Grishak in the force may be given the [[Y]] ability.",
+      "rule": "At the start of the game, up to [[X]] Grishak2{s} in the force may be given the [[Y]] ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
-    },
-    {
-      "code": "skerrat_trainer",
-      "name": "Skerrat Trainer",
-      "modifier": "[[X]],[[Y]]",
-      "type": "Trait",
-      "staminaCost": 0,
-      "rule": "At the start of the game, up to [[X]] Skerrat in the force may be given the [[Y]] ability.",
-      "ruleMaturity": 2,
-      "solo": false,
-      "simulatorRelevant": false,
-      "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "haphazard",
@@ -756,7 +813,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "hatch",
@@ -764,16 +822,17 @@
       "modifier": "[[X]]",
       "type": "Special",
       "staminaCost": 0,
-      "rule": "Roll a die at the start of combat. On a 4-6 the egg hatches, revealing a [[X]].",
-      "ruleMaturity": 2,
+      "rule": "Roll a die at the start of each combat phase. On a 5 or 6 the egg hatches: replace this model with a [[X]]. The newly-hatched [[X]] can participate in combat.",
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "heavy_vehicle",
-      "name": "Heavy Vehicle",
+      "name": "Heavy",
       "modifier": "",
       "type": "Trait",
       "staminaCost": 0,
@@ -782,7 +841,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "impetuous",
@@ -790,12 +850,13 @@
       "modifier": "",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "This model always activates when your first initiative counter is drawn each turn. This is in addition to other models you select to activate.",
+      "rule": "This model always activates when your first Initiative Counter is drawn each turn. This is in addition to other models you select to activate.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "indomitable",
@@ -803,12 +864,13 @@
       "modifier": "",
       "type": "Combat",
       "staminaCost": 0,
-      "rule": "This model does not lose its combat action if it is attacked.",
+      "rule": "This model does not lose its Combat Action if it is attacked.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "initiative",
@@ -821,7 +883,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "inspire",
@@ -834,7 +897,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "instinctive",
@@ -847,7 +911,8 @@
       "rule_y_0": "This model always casts at least [[X]] Erac in combat.",
       "ruleMaturity": 0,
       "solo": false,
-      "simulatorRelevant": false
+      "simulatorRelevant": false,
+      "smart_rule": ""
     },
     {
       "code": "juice_bar",
@@ -855,12 +920,13 @@
       "modifier": "",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "Any non-beast model that starts its activation adjacent to this model may gain one stamina but may only move cautiously this turn.",
+      "rule": "Any non-Beast model that starts its activation adjacent to this model may gain one stamina but may only move cautiously this turn.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "leap",
@@ -873,7 +939,22 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
+    },
+    {
+      "code": "light_vehicle",
+      "name": "Light Vehicle",
+      "modifier": "",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "This model may be moved up to 6” if pulled by 1 medium or large model, or 3” if pulled by 1 small model.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "light_weapon",
@@ -886,7 +967,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "long_range",
@@ -899,7 +981,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "loyalty",
@@ -912,7 +995,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "lunge",
@@ -920,25 +1004,27 @@
       "modifier": "[[X]]",
       "type": "Combat",
       "staminaCost": 0,
-      "rule": "Use this model's combat action to attack a model within [[X]]”. These models count as adjacent for the duration of the combat. This may be used to attack through obstructing models.",
-      "ruleMaturity": 1,
+      "rule": "Use this model's Combat Action to attack a model within [[X]]”. These models count as adjacent for the duration of the combat. This may be used to attack through obstructing models.",
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "manipulate_swarm",
       "name": "Manipulate Swarm",
-      "modifier": "[[X]]",
+      "modifier": "",
       "type": "Activation",
       "staminaCost": 0,
-      "rule": "Create, Grow or Disband [[X]] swarms within this model's Command Range.\n  Create: Discard three Frenu and place a Small Swarm. The swarm must overlap the base of one of at least one of the three frenu. The swarm may not activate this turn.\n  Disband: Discard a Small/Medium Swarm and place three/six Frenu.\n  Grow: Discard a Small Swarm and three Frenu or two Small Swarms and place a Medium Swarm. The swarm must fully overlap the base of one of the small swarms; if necessary push the models in base contact away but ensure the relative positions remain unchanged. The swarm may not activate this turn.",
-      "ruleMaturity": 1,
+      "rule": "When manipulating a swarm all the frenu and swarms can be removed anywhere within this model's Command Range. When placing a swarm it may be necessary to nudge other models back to make space.\n  Create: Discard three frenu and place a small swarm over the location of one of those frenu. The swarm may not activate this turn.\n  Disband: Discard a small/medium swarm and place three/six frenu within 6” of the swarm’s location.\n  Grow:Discard a small swarm and three frenu or two small swarms and place a medium swarm over the location of one of the swarms. The swarm may not activate this turn.",
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "maternal",
@@ -951,7 +1037,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "matriarch",
@@ -964,7 +1051,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "mighty_blow",
@@ -977,7 +1065,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "momentum",
@@ -990,7 +1079,22 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
+    },
+    {
+      "code": "nest",
+      "name": "Nest",
+      "modifier": "",
+      "type": "Special",
+      "staminaCost": 0,
+      "rule": "At the start of the game you may choose not to deploy this model and up to [[X]] identical models. You may use an Initiative Counter during the game to deploy these models as a single group at least 9” from any enemy models. The models may be activated during the turn.",
+      "rule_x_0": "At the start of the game you may choose not to deploy this model. You may use an Initiative Counter during the game to deploy this model at least 9” from any enemy models. The model may be activated during the turn.",
+      "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false,
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "operated",
@@ -999,6 +1103,7 @@
       "type": "Ranged",
       "staminaCost": 0,
       "rule": "This model may be fired at the end of the turn if they did not move and there are least [[X]] unengaged friendly models adjacent to it.",
+      "smart_rule": "This model may be fired at the end of the turn if they did not move and there 1{is}2{are} least [[X]] unengaged friendly model2{s} adjacent to it.",
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
@@ -1016,7 +1121,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "overdrive",
@@ -1029,7 +1135,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "pack",
@@ -1038,7 +1145,8 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly models with the Pack ability.",
-      "rule_x_0": "This model can be activated by models with the Pack ability.",
+      "smart_rule": "Activate up to [[X]] friendly model2{s} with the Pack ability.",
+      "rule_x_0": "This model can be activated by friendly models with the Pack ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -1055,7 +1163,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "pack_instinct",
@@ -1068,7 +1177,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "packmaster",
@@ -1077,6 +1187,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly Elites.",
+      "smart_rule": "Activate up to [[X]] friendly Elite2{s}.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -1094,7 +1205,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "pathfinder",
@@ -1103,11 +1215,12 @@
       "type": "Special",
       "staminaCost": 0,
       "rule": "At the start of the game you may choose not to deploy this model and up to [[X]] other small or medium models. You may use an Initiative Counter during the game to deploy these models as a single group at least 9” from any enemy models. The models may be activated during the turn.",
-      "rule_x_0": "At the start of the game you may choose not to deploy this model. You may use an Initiative Counter during the game to deploy this model as a single group at least 9” from any enemy models. The model may be activated during the turn.",
+      "rule_x_0": "At the start of the game you may choose not to deploy this model. You may use an Initiative Counter during the game to deploy this model at least 9” from any enemy models. The model may be activated during the turn.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "persistent",
@@ -1120,7 +1233,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "point_blank",
@@ -1133,7 +1247,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "pounce",
@@ -1146,7 +1261,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "powerful",
@@ -1159,7 +1275,8 @@
       "solo": false,
       "simulatorRelevant": true,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "powerful_charge",
@@ -1172,7 +1289,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "prod",
@@ -1180,12 +1298,13 @@
       "modifier": "[[X]],[[Y]]",
       "type": "Activation",
       "staminaCost": 0,
-      "rule": "Select a beast within [[X]]” and move it up to [[Y]]” directly away from this model.",
-      "ruleMaturity": 1,
+      "rule": "Select a Beast within [[X]]” and move it up to [[Y]]” directly away from this model.",
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "protected",
@@ -1194,6 +1313,7 @@
       "type": "Trait",
       "staminaCost": 0,
       "rule": "This model may be accompanied by up to [[X]] Rare models.",
+      "smart_rule": "This model may be accompanied by up to [[X]] Rare model2{s}.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -1211,7 +1331,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "quick_shot",
@@ -1224,7 +1345,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "ranger",
@@ -1237,7 +1359,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "rapid_strike",
@@ -1250,7 +1373,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "rare",
@@ -1263,7 +1387,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "refuel",
@@ -1276,7 +1401,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "rescuer",
@@ -1285,6 +1411,7 @@
       "type": "Leadership",
       "staminaCost": 0,
       "rule": "Activate up to [[X]] friendly civilians.",
+      "smart_rule": "Activate up to [[X]] friendly civilian2{s}.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -1302,7 +1429,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "rider",
@@ -1315,7 +1443,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "sacrifice",
@@ -1324,11 +1453,12 @@
       "type": "Special",
       "staminaCost": 0,
       "rule": "Discard a friendly model from within this model's command range to gain a stamina. This may be done at any time.",
-      "ruleMaturity": 1,
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "safety_valve",
@@ -1336,12 +1466,13 @@
       "modifier": "[[X]]",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "If this model has [[X]] Stamina when a combat stone is drawn then it immediately uses the Vent ability.",
+      "rule": "If this model has [[X]] stamina when a combat stone is drawn then it immediately uses the Vent ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "savage",
@@ -1354,7 +1485,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "sibling",
@@ -1367,7 +1499,22 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
+    },
+    {
+      "code": "skerrat_trainer",
+      "name": "Skerrat Trainer",
+      "modifier": "[[X]],[[Y]]",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "At the start of the game, up to [[X]] Skerrat2{s} in the force may be given the [[Y]] ability.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "smelling_salts",
@@ -1380,7 +1527,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo",
@@ -1393,7 +1541,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_blue",
@@ -1402,6 +1551,7 @@
       "type": "AutomatedCombat",
       "staminaCost": 0,
       "rule": "Gain [[Y]] face-up [[X]] combat stone(s) when a blue combat stone is drawn from the bag.",
+      "smart_rule": "Gain [[Y]] face-up [[X]] combat stone2y{s} when a blue combat stone is drawn from the bag.",
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
@@ -1419,7 +1569,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_caller",
@@ -1432,7 +1583,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_charge",
@@ -1441,6 +1593,7 @@
       "type": "Activation",
       "staminaCost": 0,
       "rule": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support but casts [[X]] additional Combat Stones. This ability may not be used if this model had to Move Cautiously.",
+      "smart_rule": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support but casts [[X]] additional Combat Stone2{s}. This ability may not be used if this model had to Move Cautiously.",
       "ruleMaturity": 0,
       "solo": true,
       "simulatorRelevant": false,
@@ -1458,7 +1611,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_coordinated_strike",
@@ -1471,7 +1625,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_create_swarm",
@@ -1484,7 +1639,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_defender",
@@ -1497,7 +1653,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_detach",
@@ -1510,7 +1667,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_dodge",
@@ -1523,7 +1681,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_engage",
@@ -1536,7 +1695,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_flying",
@@ -1549,7 +1709,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_follow",
@@ -1562,7 +1723,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_gang_up",
@@ -1575,7 +1737,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_gather",
@@ -1588,7 +1751,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_green",
@@ -1597,6 +1761,7 @@
       "type": "AutomatedCombat",
       "staminaCost": 0,
       "rule": "Gain [[Y]] face-up [[X]] combat stone(s) when a green combat stone is drawn from the bag.",
+      "smart_rule": "Gain [[Y]] face-up [[X]] combat stone2y{s} when a green combat stone is drawn from the bag.",
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
@@ -1614,7 +1779,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_lunge",
@@ -1622,12 +1788,13 @@
       "modifier": "[[X]]",
       "type": "Combat",
       "staminaCost": 0,
-      "rule": "Use this model's combat action to attack a model within [[X]]”. These models count as adjacent for the duration of the combat. This may be used to attack through obstructing models.",
+      "rule": "Use this model's Combat Action to attack a model within [[X]]”. These models count as adjacent for the duration of the combat. This may be used to attack through obstructing models.",
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_pounce",
@@ -1640,7 +1807,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_powerful",
@@ -1653,7 +1821,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_ranged",
@@ -1661,7 +1830,8 @@
       "modifier": "[[X]],[[Y]]",
       "type": "Activation",
       "staminaCost": 0,
-      "rule": "Move to be [[X]]” away from the nearest unengaged player model and make a [[Y]] stone ranged attack.",
+      "rule": "Move to be [[X]]” away from the nearest unengaged player model and make a [[Y]] stones Ranged Attack.",
+      "smart_rule": "Move to be [[X]]” away from the nearest unengaged player model and make a [[Y]] stone2y{s} Ranged Attack.",
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
@@ -1679,7 +1849,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_red",
@@ -1688,6 +1859,7 @@
       "type": "AutomatedCombat",
       "staminaCost": 0,
       "rule": "Gain [[Y]] face-up [[X]] combat stone(s) when a red combat stone is drawn from the bag.",
+      "smart_rule": "Gain [[Y]] face-up [[X]] combat stone2y{s} when a red combat stone is drawn from the bag.",
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
@@ -1705,7 +1877,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_savage",
@@ -1718,7 +1891,8 @@
       "solo": true,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "solo_very_tough",
@@ -1731,20 +1905,22 @@
       "solo": true,
       "simulatorRelevant": true,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "spawn_frenu",
       "name": "Spawn Frenu",
       "modifier": "",
       "type": "Special",
-      "staminaCost": 0,
-      "rule": "Place 1 frenu adjacent to the model. You can never have more frenu than you started with - spawned frenu must come from the 'dead pile'. Frenu that have joined Swarms should be kept separately.",
+      "staminaCost": 1,
+      "rule": "Place 1 frenu adjacent to the model. You may never have more frenu on the board than you started the game with, so you may not Spawn Frenu that have have been removed through Swarm Manipulation.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "sprint",
@@ -1757,7 +1933,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "stamina_limit",
@@ -1770,7 +1947,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "standard",
@@ -1783,7 +1961,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "storm_summoner",
@@ -1796,7 +1975,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "stun",
@@ -1804,16 +1984,17 @@
       "modifier": "",
       "type": "Combat",
       "staminaCost": 0,
-      "rule": "If any blows are landed by this attack, the attacked model is stunned. Roll to remove the effect on a 4+ at the start of the end phase.",
-      "ruleMaturity": 1,
+      "rule": "This attack does no damage, but if any blows are landed then the attacked model is stunned. Roll to remove the effect on a 4+ at the start of the End Phase. A stunned model loses one Combat and one Support and does not recover stamina.",
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "super_heavy_vehicle",
-      "name": "Super Heavy Vehicle",
+      "name": "Very Heavy",
       "modifier": "",
       "type": "Trait",
       "staminaCost": 0,
@@ -1822,7 +2003,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "swarm",
@@ -1835,7 +2017,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "swift",
@@ -1848,7 +2031,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "swim",
@@ -1861,7 +2045,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "tactician",
@@ -1874,7 +2059,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "terrain",
@@ -1882,12 +2068,27 @@
       "modifier": "[[X]],[[Y]]",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "After deploying this model you may immediately place [[X]] pieces of terrain of type [[Y]] within its command range. Note: as a general principle, “within” just means that some part of the model/template is within the area. “Completely within” means that it must be entirely within the area.",
+      "rule": "After deploying this model you may immediately place [[X]] pieces of terrain of type [[Y]] within its command range. The terrain may not be placed over any models or other terrain features. Note: as a general principle, “within” just means that some part of the model/template is within the area. “Completely within” means that it must be entirely within the area.",
+      "smart_rule": "After deploying this model you may immediately place [[X]] piece2{s} of terrain of type [[Y]] within its command range. The terrain may not be placed over any models or other terrain features. Note: as a general principle, “within” just means that some part of the model/template is within the area. “Completely within” means that it must be entirely within the area.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
       "rule_y_0": ""
+    },
+    {
+      "code": "terror",
+      "name": "Terror",
+      "modifier": "",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "Any model within this model's command range casts one less stone in combat and when making Ranged Attacks. They must also cast a successful stone before regaining stamina.",
+      "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false,
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "trainer",
@@ -1896,6 +2097,7 @@
       "type": "Trait",
       "staminaCost": 0,
       "rule": "At the start of the game, up to [[X]] models in the force may be given the [[Y]] ability.",
+      "smart_rule": "At the start of the game, up to [[X]] model2{s} in the force may be given the [[Y]] ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -1909,6 +2111,7 @@
       "type": "Activation",
       "staminaCost": 0,
       "rule": "Immediately after this model's Basic Movement, select up to [[X]] friendly or allied models with Rider that were contacted by this model during that movement. Place the Rider models adjacent to this model.",
+      "smart_rule": "Immediately after this model's Basic Movement, select up to [[X]] friendly or allied model2{s} with Rider that 1{was}2{were} contacted by this model during that movement. Place the Rider model2{s} adjacent to this model.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -1922,6 +2125,7 @@
       "type": "Trait",
       "staminaCost": 0,
       "rule": "This model may be accompanied by up to [[X]] Beast models selected from any Culture or Theme by paying the usual points cost. The beasts count as Allies, but this model treats them as friendly.",
+      "smart_rule": "This model may be accompanied by up to [[X]] Beast model2{s} selected from any Culture or Theme by paying the usual points cost. The beast2{s} count1{s} as Allies, but this model treats 1{it}2{them} as friendly.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -1939,7 +2143,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "unstable",
@@ -1952,7 +2157,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "unstoppable",
@@ -1965,7 +2171,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "untrained",
@@ -1978,7 +2185,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "unwieldy",
@@ -1986,12 +2194,13 @@
       "modifier": "",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "A model may only carry one Unwieldy object. Small models Move Cautiously if carrying an Unwieldy object. A model carrying an Unwieldy object must pay an extra stamina before it uses a Stamina Ability. Huge models may ignore the Unwieldy trait.",
+      "rule": "A model can only carry one Unwieldy object. Small models Move Cautiously if carrying an Unwieldy object. A model carrying an Unwieldy object must pay an extra stamina before it uses a Stamina Ability. Huge models ignore the Unwieldy trait.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "vehicle",
@@ -2000,6 +2209,7 @@
       "type": "Trait",
       "staminaCost": 0,
       "rule": "This model may carry up to [[X]] small friendly models as Crew.",
+      "smart_rule": "This model may carry up to [[X]] small friendly model2{s} as Crew.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
@@ -2017,7 +2227,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "vent",
@@ -2030,7 +2241,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "very_powerful",
@@ -2039,11 +2251,12 @@
       "type": "Combat",
       "staminaCost": 0,
       "rule": "Any blows that are landed by this model must be saved with a -2 modifier.",
-      "ruleMaturity": 1,
+      "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "very_strong",
@@ -2056,7 +2269,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "very_tough",
@@ -2069,7 +2283,8 @@
       "solo": false,
       "simulatorRelevant": true,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "weak",
@@ -2082,7 +2297,8 @@
       "solo": false,
       "simulatorRelevant": true,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "well_travelled",
@@ -2095,7 +2311,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "wide_spray",
@@ -2108,7 +2325,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "whistle",
@@ -2121,7 +2339,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     },
     {
       "code": "wild_animal",
@@ -2134,7 +2353,8 @@
       "solo": false,
       "simulatorRelevant": false,
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "smart_rule": ""
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": {
-    "source": 43,
+    "source": 55,
     "script": "1.0.1"
   },
   "data": [
@@ -15,7 +15,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "casanii_deyath",
@@ -26,7 +27,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "casanii_feral",
@@ -39,7 +41,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "casanii_steyar",
@@ -50,7 +53,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "casanii_alaim",
@@ -61,7 +65,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "delgon_core",
@@ -74,7 +79,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "delgon_dehran",
@@ -87,20 +93,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
-    },
-    {
-      "code": "delgon_egolan",
-      "culture": "Delgon",
-      "theme": "Egolan",
-      "allies": [
-        "dhogu_core"
-      ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "delgon_roban",
@@ -113,7 +107,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "devanu_arak",
@@ -124,7 +119,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "devanu_core",
@@ -135,7 +131,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "devanu_outcasts",
@@ -146,7 +143,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "dhogu_core",
@@ -169,7 +167,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_ardaug",
@@ -182,7 +181,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_core",
@@ -195,7 +195,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_engu",
@@ -208,7 +209,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_knights",
@@ -221,7 +223,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_riverfolk",
@@ -234,7 +237,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_loranti",
@@ -247,7 +251,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_noble",
@@ -260,7 +265,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "empire_orel",
@@ -273,7 +279,8 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "kedashi_core",
@@ -284,7 +291,20 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
+    },
+    {
+      "code": "kedashi_kiterak",
+      "culture": "Kedashi",
+      "theme": "Kiterak",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "mercenary",
@@ -295,12 +315,26 @@
       "ruleMaturity": 0,
       "category": "game",
       "reserved": true,
-      "initiative": 3
+      "initiative": 3,
+      "sortName": ""
     },
     {
       "code": "wild_creature",
       "culture": "",
       "theme": "Wild Creature",
+      "allies": [],
+      "nonFriendlies": [],
+      "ruleMaturity": 0,
+      "category": "game",
+      "reserved": true,
+      "initiative": 3,
+      "sortName": ""
+    },
+    {
+      "code": "item",
+      "sortName": "z",
+      "culture": "",
+      "theme": "Item",
       "allies": [],
       "nonFriendlies": [],
       "ruleMaturity": 0,

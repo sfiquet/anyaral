@@ -1,9 +1,51 @@
 {
   "version": {
-    "source": 34,
+    "source": 41,
     "script": "1.0.1"
   },
   "data": [
+    {
+      "code": "mesmerise",
+      "name": "Mesmerise",
+      "movement": 0,
+      "range": 999997,
+      "minimumRange": 0,
+      "attack": 2,
+      "abilities": [
+        [
+          "point_blank",
+          "",
+          ""
+        ],
+        [
+          "stun",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 2
+    },
+    {
+      "code": "spit_acid",
+      "name": "Spit Acid",
+      "movement": 6,
+      "range": 999997,
+      "minimumRange": 0,
+      "attack": 3,
+      "abilities": [
+        [
+          "point_blank",
+          "",
+          ""
+        ],
+        [
+          "stun",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 1
+    },
     {
       "code": "spit_poison",
       "name": "Spit Poison",
@@ -28,7 +70,7 @@
           ""
         ]
       ],
-      "ruleMaturity": 1
+      "ruleMaturity": 2
     },
     {
       "code": "shell",
@@ -198,6 +240,22 @@
       "ruleMaturity": 1
     },
     {
+      "code": "throw_stones_2",
+      "name": "Throw Stones",
+      "movement": 6,
+      "minimumRange": 0,
+      "range": 6,
+      "attack": 2,
+      "abilities": [
+        [
+          "accurate",
+          "",
+          ""
+        ]
+      ],
+      "ruleMaturity": 1
+    },
+    {
       "code": "experimental_derak",
       "name": "Experimental Derak",
       "movement": 0,
@@ -281,7 +339,7 @@
       "movement": 0,
       "range": 12,
       "minimumRange": 0,
-      "attack": 1,
+      "attack": 2,
       "abilities": [
         [
           "ferocity",
