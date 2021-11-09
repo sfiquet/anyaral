@@ -61,7 +61,7 @@ export default function Home() {
         </div>
 
         <Link href="/denizens">
-          <a className="block py-2 px-4 rounded bg-blue-700 hover:bg-blue-600 text-white hover:text-white">
+          <a className="block py-2 px-4 rounded bg-blue-700 hover:bg-blue-600 focus:bg-blue-600 text-white hover:text-white focus:text-white">
             <h3 className="text-xl sm:text-2xl">See all denizens</h3>
           </a>
         </Link>
