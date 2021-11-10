@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Layout from '../components/layout'
 import Container from '../components/container'
 import Meta from '../components/meta'
 import { formatRace } from '../lib/format'
@@ -62,27 +61,25 @@ export default function DenizenList({ races, creatures }){
   })
 
   return (
-    <Layout>
-      <Container>
-        <Meta options={{
-          title: "Browse Anyaral denizens", 
-          description: "Browse World of Twilight denizens by race and quickly check denizens stats",
-          }} />
-        <div className="flex justify-center">
-          <div>
-            <h1>Denizens</h1>
+    <Container>
+      <Meta options={{
+        title: "Browse Anyaral denizens", 
+        description: "Browse World of Twilight denizens by race and quickly check denizens stats",
+        }} />
+      <div className="flex justify-center">
+        <div>
+          <h1>Denizens</h1>
 
-            <div id="nav-label" className="sr-only">Denizen selection</div>
-            <nav role="navigation" aria-labelledby="nav-label">
-              <ul>
-                {creaturesByRace.map(item => <li key={item.race}><RaceItem raceItem={item} /></li>)}
-              </ul>
-            </nav>
+          <div id="nav-label" className="sr-only">Denizen selection</div>
+          <nav role="navigation" aria-labelledby="nav-label">
+            <ul>
+              {creaturesByRace.map(item => <li key={item.race}><RaceItem raceItem={item} /></li>)}
+            </ul>
+          </nav>
 
-          </div>
         </div>
-      </Container>
-    </Layout>
+      </div>
+    </Container>
   )
 }
 

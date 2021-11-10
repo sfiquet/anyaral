@@ -1,21 +1,10 @@
 import Link from 'next/link'
 import { appName } from '../app.config.js'
-import Meta from '../components/meta'
-import Header from '../components/header'
-import Footer from '../components/footer'
 
-function HomeLayout({ children }){
+function HomeContainer({ children }){
   return (
-    <div className="min-h-screen flex flex-col">
-      <Meta />
-
-      <Header />
-
-      <div className="flex-grow py-32px px-16px sm:px-4 flex m-auto">
-        { children }
-      </div>
-
-      <Footer />
+    <div className="flex-grow py-32px px-16px sm:px-4 flex m-auto">
+      { children }
     </div>
   )
 }
@@ -47,7 +36,7 @@ function FeatureListItem({ title, description, url, uid }){
 
 export default function Home() {
   return (
-    <HomeLayout>
+    <HomeContainer>
 
       <main className="flex flex-col justify-evenly items-center space-y-12">
         <div className="space-y-8">
@@ -67,6 +56,6 @@ export default function Home() {
         </Link>
       </main>
 
-    </HomeLayout>
+    </HomeContainer>
   )
 }

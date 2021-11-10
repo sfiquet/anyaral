@@ -1,18 +1,15 @@
 import { dataTypes, getAllData, getCreature } from '../../lib/data'
-import Layout from '../../components/layout'
 import Container from '../../components/container'
 import Denizen, { DenizenHead } from '../../components/denizen'
 
 export default function DenizenPage({ denizen }){
   return (
-    <Layout>
-      <Container>
-        <main>
-          <DenizenHead denizen={denizen} />
-          <Denizen denizen={denizen} />
-        </main>
-      </Container>
-    </Layout>
+    <Container>
+      <main>
+        <DenizenHead denizen={denizen} />
+        <Denizen denizen={denizen} />
+      </main>
+    </Container>
   )
 }
 
