@@ -7,6 +7,8 @@ module.exports = (phase, { defaultConfig }) => {
 		pwa: {
 			dest: 'public',
 			dynamicStartUrl: false, // precache home page instead of storing it in runtime cache by default
+      register: false,
+      skipWaiting: false,
 		},
 	}
 

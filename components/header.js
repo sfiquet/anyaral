@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { appName } from '../app.config.js'
+import Layout from './layout.js'
 
 function ToggleButton({ expanded, controlledId, onClick }){
   return (
@@ -62,10 +63,25 @@ function MainNav(){
   )
 }
 
-export default function Header(){
+function AppUpdater({canUpdate, onClick}){
+  let display = canUpdate ? "" : "hidden"
+  return (
+    <aside aria-labelledby="update-available" className={`${display} mb-4 max-w-3xl mx-auto px-16px sm:px-4`}>
+      <div className="flex flex-col items-center space-y-2 p-16px border border-pink-600 bg-pink-100 max-w-3xl mx-auto">
+        <div className="text-center">
+          <span id="update-available">A new version is available!</span> Click the button to update the app in all tabs:
+        </div>
+        <button className="bg-pink-600 text-white rounded py-2 px-4" onClick={onClick}>Get Latest Version</button>
+      </div>
+    </aside>
+  )
+}
+
+export default function Header({ updateOptions }){
   return (
     <header className="w-full border-b border-solid border-gray-500">
       <MainNav />
+      <AppUpdater {...updateOptions} />
     </header>
   );
 }
