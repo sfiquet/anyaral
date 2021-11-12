@@ -22,6 +22,13 @@ Note that PWA features have been implemented to varying degrees by different bro
 
 PWA features will not work if Javascript is disabled.
 
+### How do I get the latest version?
+Like any app (and unlike typical websites), a PWA needs to stop running before it can be updated. The tricky bit is that it can be running concurrently in multiple browser tabs and as an installed app.
+
+From version 1.1.0 (Nov 2021), the app will tell you when a new version is available so that you can update at your own convenience by clicking a button in-app. Please report any problems with this new feature.
+
+As an alternative, you can close all versions of the app running on your machine (browser tabs and installed app). As long as you're online when you open it again, you will get the latest version.
+
 ### How can I try the iPhone app?
 The iPhone app is being actively developed and has not been released on the AppStore yet. In order to try it you need to install TestFlight from the AppStore, then [join the beta test](https://testflight.apple.com/join/yx9TdjFQ).
 Requires iOS 13.2 or later.
