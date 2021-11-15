@@ -4,6 +4,9 @@ const { PHASE_PRODUCTION_BUILD } = require('next/constants')
 module.exports = (phase, { defaultConfig }) => {
   const config = {
 		...defaultConfig,
+    eslint: {
+      ignoreDuringBuilds: process.env.LINTMODE === 'nolint', // for fastbuild script
+    },
 		pwa: {
 			dest: 'public',
 			dynamicStartUrl: false, // precache home page instead of storing it in runtime cache by default
