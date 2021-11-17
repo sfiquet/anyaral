@@ -11,7 +11,7 @@ Pull requests are welcome. For anything other than bug fixes, please open an iss
 
 ### Requirements
 - `Node.js` version 12 or later
-- `Yarn` version 1
+- `Yarn` version 3
 
 ### How to run
 Install the dependencies:

@@ -38,3 +38,12 @@ yarn-error.log*
 **/public/workbox-*.js
 **/public/sw.js
 **/public/fallback-*.js
+
+# yarn modern
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
