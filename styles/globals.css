@@ -14,7 +14,7 @@
 
   html,
   body {
-    @apply p-0 font-sans text-gray-900;
+    @apply p-0 font-sans text-gray-800;
   }
   
   a {
@@ -41,7 +41,7 @@
   }
 
   h1 {
-    @apply text-3xl tracking-tighter;
+    @apply text-3xl tracking-tighter leading-normal;
   }
   h2 {
     @apply text-2xl;
@@ -74,7 +74,7 @@
 
 @layer components {
   .box {
-    @apply border border-solid border-gray-500 bg-gray-100;
+    @apply border border-solid border-gray-400 bg-gray-50;
   }
 
   .js .js-hide {

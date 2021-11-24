@@ -16,7 +16,7 @@ function StatValue({ value }){
 }
 
 function Stat({ name, value, largeValue, paddingTop }){
-  let largeStyle = largeValue ? " text-lg" : ""
+  let largeStyle = largeValue ? " text-lg leading-normal" : ""
   let paddingStyle = paddingTop ? " pt-2" : ""
   return (
     <>
@@ -60,7 +60,7 @@ function DenizenHeader({ denizen }){
           <div>{ formatSize(denizen.size) }</div>
         </div>
 
-        { denizen.tagline.length > 0 ? <blockquote className={ `${styles.tagline} italic text-gray-700` }>{ denizen.tagline }</blockquote> : null }
+        { denizen.tagline.length > 0 ? <blockquote className={ `${styles.tagline} italic text-gray-600` }>{ denizen.tagline }</blockquote> : null }
       </div>
     </Section>
   )
@@ -200,7 +200,7 @@ function DenizenExtra({ denizen }){
   if (!hasContent) return null
 
   return (
-    <Section className="border border-solid border-gray-500 p-4">
+    <Section className="border border-solid border-gray-400 p-4">
       <H className="sr-only">More Information</H>
       <ul>
       { hasAbilities && 

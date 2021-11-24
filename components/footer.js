@@ -28,7 +28,7 @@ function GitHubIcon(props){
 
 function SocialMediaLink({ url, children }){
   return (
-    <a href={ url } className="text-gray-600 fill-current justify-center">
+    <a href={ url } className="text-gray-500 fill-current justify-center">
       { children }
     </a>
   )
@@ -36,7 +36,7 @@ function SocialMediaLink({ url, children }){
 
 export default function Footer(){
   return (
-    <footer className="w-full border-t border-solid border-gray-500 py-4 sm:py-8 text-center text-gray-700" role="contentinfo">
+    <footer className="w-full border-t border-solid border-gray-400 py-4 sm:py-8 text-center text-gray-600" role="contentinfo">
       <div className="max-w-3xl mx-auto px-16px sm:px-4 flex flex-col items-center space-y-4 sm:flex-row sm:justify-evenly sm:space-y-0">
         <p>
           Made by Sylvie Fiquet

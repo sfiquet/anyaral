@@ -1,12 +1,19 @@
 const { screens } = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      blue: colors.sky,
+      gray: colors.blueGray,
+      orange: colors.orange,
+      pink: colors.pink,
+    },
     screens: {
       'xs': '500px',
       ...screens,
