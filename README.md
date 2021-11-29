@@ -42,6 +42,57 @@ yarn start
 
 3. Test on http://localhost:3000
 
+#### Yarn Plug'n'Play
+Using Plug'n'Play is frustrating at times because not all libraries and tools are fully compatible.
+
+##### Extra Dependencies
+Some `devDependencies` are present in `package.json` purely to fix PnP issues with some libraries.
+
+For next-pwa:
+- @babel/core
+- babel-loader
+
+For jest:
+- @babel/runtime
+
+##### Yarn warnings
+`Yarn install` produces some warnings related to webpack. This is due to next-pwa not being PnP-ready (and our babel-loader fix). 
+
+The warnings are left on purpose. Webpack is provided by Next.js and there is no point in providing another version, which might or might not be the same, just for the sake of getting rid of warnings.
+
+Getting rid of warnings would mean adding webpack as a dependency in `package.json` for the anyaral warning and as a packageExtension in `.yarnrc.yml` for the next-pwa warnings. Then we'd potentially have 3 versions of Webpack. It's very brittle.
+
+[Strictly speaking](https://yarnpkg.com/advanced/rulebook#packages-should-only-ever-require-what-they-formally-list-in-their-dependencies), Next.js should specify webpack as a peer dependency, which the app would provide, with Yarn raising a warning if the version is incompatible. 
+
+Once this is done, we'll also need next-pwa to specify webpack as a peer dependency.
+
+Until this happens, the warnings stay.
+
+##### ESLint integrations
+In order to make the ESLint extension for VS Code work, you need to run:
+
+```bash
+yarn dlx @yarnpkg/sdks vscode
+```
+
+For other editors, refer to https://next.yarnpkg.com/getting-started/editor-sdks.
+
+##### Reverting to `node-modules` mode
+If you add a library and you can't make it work with PnP, you can always revert to `node-modules` mode. That's the mode the production server uses anyway.
+
+To revert to `node-modules` mode:
+
+1. Edit the `nodeLinker` option in `.yarnrc.yml`
+  ```bash
+  nodeLinker: node-modules
+  ```
+Note that `node-modules` is written with a dash, not an underscore.
+
+2. Generate the `node_modules` folder
+  ```bash
+  yarn install
+  ```
+
 ### Things to keep in mind before making changes
 This responsive app is designed with progressive enhancement and accessibility in mind. Please respect those constraints.
 
