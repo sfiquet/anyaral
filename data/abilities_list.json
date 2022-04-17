@@ -1,6 +1,6 @@
 {
   "version": {
-    "source": 125,
+    "source": 160,
     "script": "1.0.1"
   },
   "data": [
@@ -14,9 +14,13 @@
       "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "accurate",
@@ -28,9 +32,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "aggressive",
@@ -42,9 +50,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "agile",
@@ -56,9 +68,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 0,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "agility",
@@ -70,9 +86,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "alpha",
@@ -84,9 +104,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "ambush",
@@ -98,9 +122,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "aquatic",
@@ -112,9 +140,13 @@
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "aromatherapy",
@@ -126,9 +158,13 @@
       "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "assassinate",
@@ -140,9 +176,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "assistant",
@@ -154,9 +194,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "authority",
@@ -169,8 +213,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "beast_handler",
@@ -183,8 +231,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "blitz",
@@ -196,9 +248,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "bodyguard",
@@ -210,9 +266,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "bomb_carrier",
@@ -224,9 +284,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 0,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "bomb",
+      "name": "Bomb",
+      "modifier": "",
+      "type": "Special",
+      "staminaCost": 0,
+      "rule": "Whenever a model picks up this object, and at the start of any activation where it is carrying it, it must make a 2+ tough save or be removed as a casualty.",
+      "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": -1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "bomber",
@@ -238,9 +320,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "bushwack",
@@ -252,9 +338,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "cadre",
@@ -267,8 +357,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "captain",
@@ -281,8 +375,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "captor",
@@ -295,8 +393,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "charge",
@@ -305,12 +407,16 @@
       "type": "Activation",
       "staminaCost": 0,
       "rule": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support but casts [[X]] additional Combat Stones. This ability may not be used if this model had to Move Cautiously.",
-      "smart_rule": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support but casts [[x]] additional Combat Stone2{s}. This ability may not be used if this model had to Move Cautiously.",
+      "smart_rule": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support but casts [[X]] additional Combat Stone2{s}. This ability may not be used if this model had to Move Cautiously.",
+      "rule_x_0": "Fight a combat against an adjacent enemy immediately after this model has moved using its Basic Movement. This model may not benefit from support. This ability may not be used if this model had to Move Cautiously.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
-      "rule_x_0": "",
-      "rule_y_0": ""
+      "costType": 1,
+      "notes": "",
+      "rule_y_0": "",
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "combat_discipline",
@@ -322,9 +428,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "combat_trained",
@@ -337,8 +447,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "commander",
@@ -351,8 +465,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "concealed",
@@ -364,9 +482,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "concentrated_fire",
@@ -378,9 +500,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "confuse",
@@ -392,9 +518,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "contraption",
+      "name": "Contraption",
+      "modifier": "[[X]]",
+      "type": "Special",
+      "staminaCost": 0,
+      "rule": "This model may be equipped with [[X]] Contraption items.",
+      "smart_rule": "This model may be equipped with [[X]] Contraption item2{s}.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "coordinated_strike",
@@ -406,9 +554,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "coward",
@@ -420,9 +572,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "creator",
@@ -434,9 +590,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "crew",
@@ -449,8 +609,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "critical",
@@ -462,9 +626,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "critter",
@@ -477,8 +645,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "crunch",
@@ -491,8 +663,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "death_from_above",
@@ -504,9 +680,13 @@
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "defender",
@@ -518,9 +698,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "defensive_line",
@@ -532,9 +716,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "defensive_stance",
@@ -546,9 +734,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "diplomat",
@@ -560,9 +752,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "dodge",
@@ -574,9 +770,49 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "entangle",
+      "name": "Entangle",
+      "modifier": "",
+      "type": "Combat",
+      "staminaCost": 1,
+      "rule": "This attack does no damage, but if any blows are landed then the attacked model is entangled. Roll to remove the effect on a 4+ at the start of the End Phase. An entangled model loses one Combat and one Support and can only move cautiously. A model of size Large casts one extra Oran to defend against this attack. Huge models are unaffected.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "erratic",
+      "name": "Erratic",
+      "modifier": "[[X]]",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "This model is difficult to control. Place a target marker within movement range. Cast [[X]] Combat Stones and scatter the destination 2” from the target for each miss (roll a D6 to determine direction). Stamina can be used to recast stones.",
+      "smart_rule": "This model is difficult to control. Place a target marker within movement range. Cast [[X]] Combat Stone2{s} and scatter the destination 2” from the target for each miss (roll a D6 to determine direction). Stamina can be used to recast stones.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "evasive",
@@ -588,9 +824,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "explode",
@@ -602,23 +842,13 @@
       "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
-    },
-    {
-      "code": "explodes",
-      "name": "Explodes",
-      "modifier": "",
-      "type": "Special",
-      "staminaCost": 0,
-      "rule": "Whenever a model picks up this object, and at the start of any activation where it is carrying it, it must make a 2+ tough save or be removed as a casualty.",
-      "ruleMaturity": 0,
-      "solo": false,
-      "simulatorRelevant": false,
-      "rule_x_0": "",
-      "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "falconer",
@@ -631,8 +861,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "favoured_allies",
@@ -644,9 +878,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "feint",
@@ -658,9 +896,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "ferocity",
@@ -672,9 +914,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "flit",
@@ -686,9 +932,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "flying",
@@ -700,9 +950,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
+    },
+    {
+      "code": "flying_transport",
+      "name": "Flying Transport",
+      "modifier": "[[X]]",
+      "type": "Activation",
+      "staminaCost": 0,
+      "rule": "If this model is \"on the ground\", select up to [[X]] friendly or allied models that are in base contact with it. Place the models on this model's base. A Medium model counts as 2 models, a Large model counts as 4, a Huge model counts as 8. Models can only disembark if the model is \"on the ground\".",
+      "smart_rule": "If this model is \"on the ground\", select up to [[X]] friendly or allied model2{s} that 1{is}2{are} in base contact with it. Place the model2{s} on this model's base. A Medium model counts as 2 models, a Large model counts as 4, a Huge model counts as 8. Models can only disembark if the model is \"on the ground\".",
+      "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "focus",
@@ -714,9 +986,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "fuel",
@@ -728,9 +1004,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "gasmask",
@@ -742,9 +1022,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "get_em",
@@ -756,9 +1040,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "good_fortune",
@@ -766,13 +1054,35 @@
       "modifier": "",
       "type": "Special",
       "staminaCost": 1,
-      "rule": "Allow a friendly model in command range to either recast a stone, or re-roll a die.",
-      "ruleMaturity": 2,
+      "rule": "Allows a friendly model in Command Range to either recast a combat stone, or re-roll a die. If a model with Good Fortune is killed by an enemy model, all friendly models within Command Range gain a stamina. If a model with Good Fortune is killed by a friendly model, all friendly models within Command Range are Stunned until the end of the game. A stunned model loses one Combat and one Support and does not recover stamina.",
+      "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "grab",
+      "name": "Grab",
+      "modifier": "",
+      "type": "Activation",
+      "staminaCost": 0,
+      "rule": "Immediately after this model’s basic movement, select one small model that was contacted by this model during that movement. Place the model adjacent to this model.",
+      "ruleMaturity": 1,
+      "solo": false,
+      "simulatorRelevant": false,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "graku_master",
@@ -784,9 +1094,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "grishak_trainer",
@@ -794,27 +1108,35 @@
       "modifier": "[[X]],[[Y]]",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "At the start of the game, up to [[X]] Grishak2{s} in the force may be given the [[Y]] ability.",
+      "rule": "At the start of the game, up to [[X]] Grishak(s) in the force may be given the [[Y]] ability.",
+      "smart_rule": "At the start of the game, up to [[X]] Grishak2{s} in the force may be given the [[Y]] ability.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "haphazard",
       "name": "Haphazard",
-      "modifier": "",
+      "modifier": "[[X]]",
       "type": "Ranged",
       "staminaCost": 0,
-      "rule": "Place a target marker within range. Cast 4 CS and scatter the impact 2” from the target for each miss (roll a D6 to determine direction). Stamina can be used to recast stones. Place a 3” template on the impact point: all models under the template are hit. Leave the target in place, if the target for the next shot is within 3” of the target then you may recast one failed CS when rolling to scatter.",
+      "rule": "Place a target marker within range. Cast [[X]] Combat Stones and scatter the impact 2” from the target for each miss (roll a D6 to determine direction). Stamina can be used to recast stones. Place a 3” template on the impact point: all models under the template are hit. Leave the target in place, if the target for the next shot is within 3” of the target then you may recast one failed CS when rolling to scatter.",
+      "smart_rule": "Place a target marker within range. Cast [[X]] Combat Stone2{s} and scatter the impact 2” from the target for each miss (roll a D6 to determine direction). Stamina can be used to recast stones. Place a 3” template on the impact point: all models under the template are hit. Leave the target in place, if the target for the next shot is within 3” of the target then you may recast one failed CS when rolling to scatter.",
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "hatch",
@@ -826,9 +1148,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "heavy_vehicle",
@@ -840,9 +1166,13 @@
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "impetuous",
@@ -854,9 +1184,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
+    },
+    {
+      "code": "in_the_air",
+      "name": "In The Air",
+      "modifier": "",
+      "type": "Trait",
+      "staminaCost": 1,
+      "rule": "\n  • This model may start the game either \"on the ground\" or \"in the air\". During activation, instead of moving the model may go up \"in the air\" (if \"on the ground\"), or down \"on the ground\" (if \"in the air\"). This costs one Stamina.\n  • If at any time the model does not have Crew, it is considered out of control and lost (remove the model from the board).\n  • When \"in the air\", the model can only engage in Close Combat with other flying models.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "indomitable",
@@ -868,9 +1220,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "influential",
+      "name": "Influential",
+      "modifier": "[[X]]",
+      "type": "Special",
+      "staminaCost": 0,
+      "rule": "This model starts the game with [[X]] coins. Before the game, it may use coins to add exotic mercenaries to the force:\n  • Spend one coin to add one elite fubarnii model to the force that would not normally be allowed, paid for using that model's normal cost. The model is treated as friendly.\n  • Spend one coin to add two troop fubarnii models to the force that would not normally be allowed, paid for using those models' normal cost. The models are treated as friendly.\nDuring the game, it may:\n  • Spend one coin during an an opponent's activation turn to pick which model the opponent will activate.\n  • Spend two coins during its activation turn to grant a stamina counter to all models within its command range.",
+      "smart_rule": "This model starts the game with [[X]] coin2{s}. Before the game, it may use coins to add exotic mercenaries to the force:\n  • Spend one coin to add one elite fubarnii model to the force that would not normally be allowed, paid for using that model's normal cost. The model is treated as friendly.\n  • Spend one coin to add two troop fubarnii models to the force that would not normally be allowed, paid for using those models' normal cost. The models are treated as friendly.\nDuring the game, it may:\n  • Spend one coin during an an opponent's activation turn to pick which model the opponent will activate.\n  • Spend two coins during its activation turn to grant a stamina counter to all models within its command range.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "initiative",
@@ -882,9 +1256,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "inspire",
@@ -896,9 +1274,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "instinctive",
@@ -912,7 +1294,29 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
-      "smart_rule": ""
+      "notes": "",
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
+    },
+    {
+      "code": "intense_spray",
+      "name": "Intense Spray",
+      "modifier": "",
+      "type": "Ranged",
+      "staminaCost": 1,
+      "rule": "Place an additional blast template, its short end must touch an existing blast template.",
+      "ruleMaturity": 1,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "juice_bar",
@@ -924,9 +1328,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "leap",
@@ -938,9 +1346,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "light_vehicle",
@@ -952,9 +1364,13 @@
       "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "light_weapon",
@@ -966,9 +1382,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "long_range",
@@ -980,9 +1400,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "loyalty",
@@ -994,9 +1418,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "lunge",
@@ -1008,9 +1436,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "manipulate_swarm",
@@ -1022,9 +1454,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
+    },
+    {
+      "code": "master",
+      "name": "Master",
+      "modifier": "[[X]]",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "This model may be accompanied by up to [[X]] Apprentices.",
+      "smart_rule": "This model may be accompanied by up to [[X]] Apprentice2{s}.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "maternal",
@@ -1036,9 +1490,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "matriarch",
@@ -1050,9 +1508,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "mighty_blow",
@@ -1064,9 +1526,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "momentum",
@@ -1078,9 +1544,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "nest",
@@ -1093,8 +1563,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "operated",
@@ -1107,8 +1581,12 @@
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "outcast",
@@ -1120,9 +1598,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "overdrive",
@@ -1134,9 +1616,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "overflight",
+      "name": "Overflight",
+      "modifier": "",
+      "type": "Combat",
+      "staminaCost": 0,
+      "rule": "This model can Move after its Combat Action.",
+      "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "pack",
@@ -1150,7 +1654,11 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
-      "rule_y_0": ""
+      "notes": "",
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "pack_hunter",
@@ -1162,9 +1670,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "pack_instinct",
@@ -1176,9 +1688,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "packmaster",
@@ -1191,8 +1707,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "passive",
@@ -1204,9 +1724,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": -2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "pathfinder",
@@ -1219,8 +1743,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "persistent",
@@ -1232,9 +1760,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "point_blank",
@@ -1246,9 +1778,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "pounce",
@@ -1260,20 +1796,28 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "powerful",
       "name": "Powerful",
       "modifier": "",
+      "appliesToRanged": true,
       "type": "Combat",
       "staminaCost": 0,
       "rule": "Any blows that are landed by this model must be saved with a -1 modifier.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
       "smart_rule": ""
@@ -1288,9 +1832,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "prod",
@@ -1302,9 +1850,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "protected",
@@ -1317,8 +1869,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "proud",
@@ -1330,9 +1886,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "quick_shot",
@@ -1344,9 +1904,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "ranger",
@@ -1358,9 +1922,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "rapid_strike",
@@ -1372,9 +1940,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 0,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "rare",
@@ -1386,9 +1958,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "refuel",
@@ -1400,9 +1976,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "rescuer",
@@ -1415,8 +1995,30 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
+    },
+    {
+      "code": "resourceful",
+      "name": "Resourceful",
+      "modifier": "[[X]]",
+      "type": "Special",
+      "staminaCost": 1,
+      "rule": "This model gains [[X]] of the Activation abilities below. Each ability costs one Stamina to activate\n  • Confused orders [A]*: The Engineer may select one enemy Troop within Command Range that has not yet been activated this turn. He may activate it and get it to move and use any activation abilities it has as if it was on its side. This ability may never be used to initiate combat.\n  • I can teach it tricks! [A]*: The Engineer may select one friendly Beast within Command Range. The beast gains Combat Trained(2) for the remainder of the turn.\n  • Lay of the land [A]*: The Engineer may select up to three enemy Troops within Command Range. These may only move cautiously for the remainder of the turn, and may not use any abilities that would increase their movement.\n  • Over There! [A]*: The Engineer may select one friendly Troop within Command Range. That troop gains +2 movement on their activation that turn.\n  • Tactics, Lass! [A]*: The Engineer may select one friendly Troop within Command Range, who in turn selects 2 other Troops within its Command Range. These may immediately move cautiously. This does not count as having been activated.\n  • Up and to the left a little… [A]*: The Engineer may select one friendly Troop within Command Range. The troop gains Combat Trained(2) on one ranged attack on that turn.",
+      "smart_rule": "",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "appliesToRanged": false
     },
     {
       "code": "retinue",
@@ -1428,9 +2030,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "rider",
@@ -1442,9 +2048,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "sacrifice",
@@ -1456,9 +2066,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "safety_valve",
@@ -1470,9 +2084,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "savage",
@@ -1484,9 +2102,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "sibling",
@@ -1498,9 +2120,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "skerrat_trainer",
@@ -1508,13 +2134,17 @@
       "modifier": "[[X]],[[Y]]",
       "type": "Trait",
       "staminaCost": 0,
-      "rule": "At the start of the game, up to [[X]] Skerrat2{s} in the force may be given the [[Y]] ability.",
+      "rule": "At the start of the game, up to [[X]] Skerrat(s) in the force may be given the [[Y]] ability.",
+      "smart_rule": "At the start of the game, up to [[X]] Skerrat2{s} in the force may be given the [[Y]] ability.",
       "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "smelling_salts",
@@ -1526,9 +2156,13 @@
       "ruleMaturity": 2,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "solo",
@@ -1540,9 +2174,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_blue",
@@ -1555,8 +2193,12 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_bomber",
@@ -1568,9 +2210,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_caller",
@@ -1582,9 +2228,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_charge",
@@ -1597,8 +2247,12 @@
       "ruleMaturity": 0,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_concentrated_fire",
@@ -1610,9 +2264,13 @@
       "ruleMaturity": 0,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_coordinated_strike",
@@ -1624,9 +2282,13 @@
       "ruleMaturity": 2,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_create_swarm",
@@ -1638,9 +2300,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_defender",
@@ -1652,9 +2318,13 @@
       "ruleMaturity": 2,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_detach",
@@ -1666,9 +2336,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_dodge",
@@ -1680,9 +2354,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_engage",
@@ -1694,9 +2372,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_flying",
@@ -1708,9 +2390,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_follow",
@@ -1722,9 +2408,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_gang_up",
@@ -1736,9 +2426,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_gather",
@@ -1750,9 +2444,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_green",
@@ -1765,8 +2463,12 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_hold",
@@ -1778,9 +2480,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_lunge",
@@ -1792,9 +2498,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_pounce",
@@ -1806,9 +2516,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_powerful",
@@ -1820,9 +2534,13 @@
       "ruleMaturity": 0,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_ranged",
@@ -1835,8 +2553,12 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_ranger",
@@ -1848,9 +2570,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_red",
@@ -1863,8 +2589,12 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_sacrifice",
@@ -1876,9 +2606,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_savage",
@@ -1890,9 +2624,13 @@
       "ruleMaturity": 1,
       "solo": true,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "solo_very_tough",
@@ -1904,9 +2642,13 @@
       "ruleMaturity": 2,
       "solo": true,
       "simulatorRelevant": true,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "spawn_frenu",
@@ -1918,9 +2660,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "sprint",
@@ -1932,9 +2678,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
+    },
+    {
+      "code": "squawk",
+      "name": "Sqwak!",
+      "modifier": "",
+      "type": "Special",
+      "staminaCost": 0,
+      "rule": "If a blow is landed on this model, it screams at the top of its lungs: all beasts within its command range (from closest to farthest) immediately move straight towards it, stopping if they come into base contact with another model. This ability can only be used once per turn.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "stamina_limit",
@@ -1946,9 +2714,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "standard",
@@ -1960,9 +2732,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "storm_summoner",
@@ -1974,9 +2750,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "stun",
@@ -1988,23 +2768,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
-    },
-    {
-      "code": "super_heavy_vehicle",
-      "name": "Very Heavy",
-      "modifier": "",
-      "type": "Trait",
-      "staminaCost": 0,
-      "rule": "This model may be moved up to 6” if pulled by 2 large or 4 medium models, or 3” if pulled by 1 large or 2 medium models.",
-      "ruleMaturity": 1,
-      "solo": false,
-      "simulatorRelevant": false,
-      "rule_x_0": "",
-      "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "swarm",
@@ -2016,9 +2786,31 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
+    },
+    {
+      "code": "sweep",
+      "name": "Sweep",
+      "modifier": "",
+      "type": "Combat",
+      "staminaCost": 0,
+      "rule": "Attack another model in range if the preceding attack kills its target.",
+      "ruleMaturity": 2,
+      "solo": false,
+      "simulatorRelevant": false,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "swift",
@@ -2030,9 +2822,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "swim",
@@ -2044,9 +2840,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "tactician",
@@ -2058,9 +2858,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "terrain",
@@ -2073,8 +2877,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "terror",
@@ -2086,9 +2894,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "trainer",
@@ -2101,8 +2913,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "transport",
@@ -2115,8 +2931,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "travelling_biologist",
@@ -2129,8 +2949,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "tune_up",
@@ -2142,9 +2966,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "unstable",
@@ -2156,9 +2984,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "unstoppable",
@@ -2170,9 +3002,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "untrained",
@@ -2184,9 +3020,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "unwieldy",
@@ -2198,9 +3038,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "vehicle",
@@ -2213,8 +3057,12 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
-      "rule_y_0": ""
+      "rule_y_0": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "venerated",
@@ -2226,9 +3074,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costPower": -2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "appliesToRanged": false
     },
     {
       "code": "vent",
@@ -2240,23 +3092,67 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
+    },
+    {
+      "code": "super_heavy_vehicle",
+      "name": "Very Heavy",
+      "modifier": "",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "This model may be moved up to 6” if pulled by 2 large or 4 medium models, or 3” if pulled by 1 large or 2 medium models.",
+      "ruleMaturity": 1,
+      "solo": false,
+      "simulatorRelevant": false,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "very_powerful",
       "name": "Very Powerful",
       "modifier": "",
       "type": "Combat",
+      "appliesToRanged": true,
       "staminaCost": 0,
       "rule": "Any blows that are landed by this model must be saved with a -2 modifier.",
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
       "smart_rule": ""
+    },
+    {
+      "code": "very_powerful_charge",
+      "name": "Barreling Charge",
+      "modifier": "",
+      "type": "Trait",
+      "staminaCost": 0,
+      "rule": "If this model ends its move more than 4” from its starting position during its turn it gains Very Powerful until the end of the next Combat Phase. Blows landed by a model with the Very Powerful trait are saved with a -2 modifier.",
+      "ruleMaturity": 0,
+      "solo": false,
+      "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
+      "rule_x_0": "",
+      "rule_y_0": "",
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "very_strong",
@@ -2268,9 +3164,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "very_tough",
@@ -2282,9 +3182,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true,
+      "costType": -1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "weak",
@@ -2296,9 +3200,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": true,
+      "costType": 1,
+      "costPower": -2,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "well_travelled",
@@ -2310,9 +3218,13 @@
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "wide_spray",
@@ -2324,9 +3236,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": 1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     },
     {
       "code": "whistle",
@@ -2338,9 +3254,13 @@
       "ruleMaturity": 1,
       "solo": false,
       "simulatorRelevant": false,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "costType": 0,
+      "costPower": 0,
+      "appliesToRanged": false
     },
     {
       "code": "wild_animal",
@@ -2352,9 +3272,13 @@
       "ruleMaturity": 0,
       "solo": false,
       "simulatorRelevant": false,
+      "costType": 1,
+      "costPower": -1,
+      "notes": "",
       "rule_x_0": "",
       "rule_y_0": "",
-      "smart_rule": ""
+      "smart_rule": "",
+      "appliesToRanged": false
     }
   ]
 }
