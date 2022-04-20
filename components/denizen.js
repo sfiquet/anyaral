@@ -1,6 +1,7 @@
 import Meta from '../components/meta'
 
 import { Section, H } from '../components/heading'
+import { VALUE_UNDEFINED } from '../lib/constants'
 import { formatStat, formatRange, formatSize, formatRace, formatAbility, formatAbilityRule } from '../lib/format'
 import styles from '../styles/denizen.module.css'
 
@@ -94,6 +95,7 @@ function DenizenContent({ denizen }){
           <Stat name="Support" value={ formatStat(denizen.support) } largeValue={true} />
           <Stat name="Save" value={ formatStat(denizen.save, '+') } largeValue={true} />
           <Stat name="CR" value={ formatStat(denizen.commandRange, '"') } largeValue={true} />
+          { denizen.range !== VALUE_UNDEFINED && <Stat name="Range" value={ formatRange(denizen.range) } largeValue={true} /> }
           { stamina }
         </StatGrid>
       </Section>
