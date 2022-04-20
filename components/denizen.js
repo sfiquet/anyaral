@@ -90,12 +90,24 @@ function DenizenContent({ denizen }){
       <Section className="box p-16px">
         <H className="sr-only">Stats</H>
         <StatGrid>
-          <Stat name="Movement" value={ formatStat(denizen.movement, '"') } largeValue={true} />
-          <Stat name="Attack" value={ formatStat(denizen.attack) } largeValue={true} />
-          <Stat name="Support" value={ formatStat(denizen.support) } largeValue={true} />
-          <Stat name="Save" value={ formatStat(denizen.save, '+') } largeValue={true} />
-          <Stat name="CR" value={ formatStat(denizen.commandRange, '"') } largeValue={true} />
-          { denizen.range !== VALUE_UNDEFINED && <Stat name="Range" value={ formatRange(denizen.range) } largeValue={true} /> }
+          { denizen.movement !== VALUE_UNDEFINED && 
+            <Stat name="Movement" value={ formatStat(denizen.movement, '"') } largeValue={true} /> }
+
+          { denizen.attack !== VALUE_UNDEFINED && 
+            <Stat name="Attack" value={ formatStat(denizen.attack) } largeValue={true} /> }
+
+          { denizen.support !== VALUE_UNDEFINED && 
+            <Stat name="Support" value={ formatStat(denizen.support) } largeValue={true} /> }
+
+          { denizen.save !== VALUE_UNDEFINED && 
+            <Stat name="Save" value={ formatStat(denizen.save, '+') } largeValue={true} /> }
+
+          { denizen.commandRange !== VALUE_UNDEFINED && 
+            <Stat name="CR" value={ formatStat(denizen.commandRange, '"') } largeValue={true} /> }
+
+          { denizen.range !== VALUE_UNDEFINED && 
+            <Stat name="Range" value={ formatRange(denizen.range) } largeValue={true} /> }
+            
           { stamina }
         </StatGrid>
       </Section>
