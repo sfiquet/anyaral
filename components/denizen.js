@@ -182,7 +182,7 @@ function CostStat({ cost, cost_per }){
       <span>Cost</span>
       { cost !== VALUE_UNDEFINED
         ? <CostStatValue cost={cost} cost_per={cost_per} />
-        : <span className='italic'>Not for sale</span> 
+        : <span className="text-xl">n/a</span>
       }
     </div>
   )
