@@ -107,7 +107,7 @@ function DenizenContent({ denizen }){
 
           { denizen.range !== VALUE_UNDEFINED && 
             <Stat name="Range" value={ formatRange(denizen.range) } largeValue={true} /> }
-            
+
           { stamina }
         </StatGrid>
       </Section>
@@ -150,12 +150,24 @@ function DenizenWeapon({ weapon }){
   )    
 }
 
+function CostStat({ cost }){
+  return (
+    <div className="flex flex-col justify-center items-center">
+      <span>Cost</span>
+      { cost !== VALUE_UNDEFINED
+        ? <span className="text-xl"><StatValue value={ formatStat(cost) } /></span>
+        : <span className='italic'>Not for sale</span> 
+      }
+    </div>
+  )
+}
+
 function DenizenFooter({ race, cost }){
   return (
     <Section className="flex justify-between items-center">
       <H className="sr-only">Card Footer: Race and cost</H>
       <div className="text-3xl tracking-tighter">{ formatRace(race) }</div>
-      <div className="flex flex-col justify-center items-center"><span>Cost</span> <span className="text-xl"><StatValue value={ formatStat(cost) } /></span></div>
+      <CostStat cost={cost} />
     </Section>
   )
 }
