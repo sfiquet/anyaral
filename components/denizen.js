@@ -150,24 +150,50 @@ function DenizenWeapon({ weapon }){
   )    
 }
 
-function CostStat({ cost }){
+function CostSingle({ cost }){
+  return(
+    <StatValue value={ formatStat(cost) } />
+  )
+}
+
+function CostMultiple({ cost, cost_per }){
+  return(
+    <>
+      <span>{cost_per}</span>
+      <span> for </span>
+      <StatValue value={ formatStat(cost) } />
+    </>
+  )
+}
+
+function CostStatValue({ cost, cost_per }){
+  return (
+    <span className="text-xl">
+      { cost_per === 1 
+        ? <CostSingle cost={cost} /> 
+        : <CostMultiple cost={cost} cost_per={cost_per} /> }
+    </span>
+  )
+}
+
+function CostStat({ cost, cost_per }){
   return (
     <div className="flex flex-col justify-center items-center">
       <span>Cost</span>
       { cost !== VALUE_UNDEFINED
-        ? <span className="text-xl"><StatValue value={ formatStat(cost) } /></span>
+        ? <CostStatValue cost={cost} cost_per={cost_per} />
         : <span className='italic'>Not for sale</span> 
       }
     </div>
   )
 }
 
-function DenizenFooter({ race, cost }){
+function DenizenFooter({ race, cost, cost_per }){
   return (
     <Section className="flex justify-between items-center">
       <H className="sr-only">Card Footer: Race and cost</H>
       <div className="text-3xl tracking-tighter">{ formatRace(race) }</div>
-      <CostStat cost={cost} />
+      <CostStat cost={cost} cost_per={cost_per} />
     </Section>
   )
 }
@@ -178,7 +204,7 @@ function DenizenCard({ denizen }){
       <DenizenHeader denizen={ denizen } />
       <DenizenContent denizen={ denizen } />
       <DenizenWeapon weapon={ denizen.rangedWeapon } />
-      <DenizenFooter race={denizen.race} cost={denizen.cost} />
+      <DenizenFooter race={denizen.race} cost={denizen.cost} cost_per={denizen.cost_per} />
     </article>
   )
 }
