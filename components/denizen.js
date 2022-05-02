@@ -67,52 +67,67 @@ function DenizenHeader({ denizen }){
   )
 }
 
-function DenizenContent({ denizen }){
-  let stamina = null
-  if (denizen.stamina !== VALUE_UNDEFINED && denizen.stamina > 0){
-    stamina = (
-      <Stat name="Stamina" value={ formatStat(denizen.stamina) } paddingTop={true} largeValue={true} />
-    )
-  }
+function StatSection({ denizen }){
+  let statCount = 0
+  if (denizen.movement  !== VALUE_UNDEFINED) statCount++
+  if (denizen.attack  !== VALUE_UNDEFINED) statCount++
+  if (denizen.support  !== VALUE_UNDEFINED) statCount++
+  if (denizen.save  !== VALUE_UNDEFINED) statCount++
+  if (denizen.commandRange  !== VALUE_UNDEFINED) statCount++
+  if (denizen.range  !== VALUE_UNDEFINED) statCount++
+  if (denizen.stamina  !== VALUE_UNDEFINED && denizen.stamina > 0) statCount++
 
-  let abilities = null
-  if (denizen.abilities.length > 0){
-    abilities = (
-      <Section className="m-auto p-16px">
-        <H>Abilities</H>
-        <AbilityList abilities={denizen.abilities} />
-      </Section>
-    )
+  if (statCount === 0){
+    return null
   }
 
   return (
+    <Section className="box p-16px">
+      <H className="sr-only">Stats</H>
+      <StatGrid>
+        { denizen.movement !== VALUE_UNDEFINED && 
+          <Stat name="Movement" value={ formatStat(denizen.movement, '"') } largeValue={true} /> }
+
+        { denizen.attack !== VALUE_UNDEFINED && 
+          <Stat name="Attack" value={ formatStat(denizen.attack) } largeValue={true} /> }
+
+        { denizen.support !== VALUE_UNDEFINED && 
+          <Stat name="Support" value={ formatStat(denizen.support) } largeValue={true} /> }
+
+        { denizen.save !== VALUE_UNDEFINED && 
+          <Stat name="Save" value={ formatStat(denizen.save, '+') } largeValue={true} /> }
+
+        { denizen.commandRange !== VALUE_UNDEFINED && 
+          <Stat name="CR" value={ formatStat(denizen.commandRange, '"') } largeValue={true} /> }
+
+        { denizen.range !== VALUE_UNDEFINED && 
+          <Stat name="Range" value={ formatRange(denizen.range) } largeValue={true} /> }
+
+        { denizen.stamina !== VALUE_UNDEFINED && denizen.stamina > 0 &&
+          <Stat name="Stamina" value={ formatStat(denizen.stamina) } paddingTop={true} largeValue={true} /> }
+      </StatGrid>
+    </Section>
+  )
+}
+
+function AbilitySection({ abilities }){
+  if (abilities.length <= 0){
+    return null
+  }
+
+  return (
+    <Section className="m-auto p-16px">
+      <H>Abilities</H>
+      <AbilityList abilities={abilities} />
+    </Section>
+  )
+}
+
+function DenizenContent({ denizen }){
+  return (
     <div className="flex flex-wrap justify-start">
-      <Section className="box p-16px">
-        <H className="sr-only">Stats</H>
-        <StatGrid>
-          { denizen.movement !== VALUE_UNDEFINED && 
-            <Stat name="Movement" value={ formatStat(denizen.movement, '"') } largeValue={true} /> }
-
-          { denizen.attack !== VALUE_UNDEFINED && 
-            <Stat name="Attack" value={ formatStat(denizen.attack) } largeValue={true} /> }
-
-          { denizen.support !== VALUE_UNDEFINED && 
-            <Stat name="Support" value={ formatStat(denizen.support) } largeValue={true} /> }
-
-          { denizen.save !== VALUE_UNDEFINED && 
-            <Stat name="Save" value={ formatStat(denizen.save, '+') } largeValue={true} /> }
-
-          { denizen.commandRange !== VALUE_UNDEFINED && 
-            <Stat name="CR" value={ formatStat(denizen.commandRange, '"') } largeValue={true} /> }
-
-          { denizen.range !== VALUE_UNDEFINED && 
-            <Stat name="Range" value={ formatRange(denizen.range) } largeValue={true} /> }
-
-          { stamina }
-        </StatGrid>
-      </Section>
-    
-      { abilities }
+      <StatSection denizen={ denizen }/>
+      <AbilitySection abilities={ denizen.abilities }/>
     </div>
   )
 }
