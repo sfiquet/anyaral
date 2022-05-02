@@ -69,7 +69,7 @@ function DenizenHeader({ denizen }){
 
 function DenizenContent({ denizen }){
   let stamina = null
-  if (denizen.stamina > 0){
+  if (denizen.stamina !== VALUE_UNDEFINED && denizen.stamina > 0){
     stamina = (
       <Stat name="Stamina" value={ formatStat(denizen.stamina) } paddingTop={true} largeValue={true} />
     )
@@ -305,7 +305,7 @@ export function DenizenHead({ denizen }){
     description += `, Range: ${ formatRange(denizen.range) }`
   }
   
-  if (denizen.stamina > 0){
+  if (denizen.stamina !== VALUE_UNDEFINED && denizen.stamina > 0){
     description += `, Stamina: ${ formatStat(denizen.stamina) }`
   }
 
