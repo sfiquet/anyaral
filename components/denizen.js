@@ -268,19 +268,51 @@ function DenizenExtra({ denizen }){
 
 export function DenizenHead({ denizen }){
   let description = `Race: ${ formatRace(denizen.race) }`
-  description += `, Cost: ${ formatStat(denizen.cost) }`
+
+  if (denizen.cost !== VALUE_UNDEFINED){
+    let cost = ''
+    if (denizen.cost_per === 1){
+      cost = formatStat(denizen.cost)
+    } else {
+      cost = `${denizen.cost_per} for ${formatStat(denizen.cost)}`
+    }
+    description += `, Cost: ${ cost }`
+  }
+
   description += `, Types: ${ denizen.types.join(' - ') }`
-  description += `, Movement: ${ formatStat(denizen.movement, '"') }`
-  description += `, Attack: ${ formatStat(denizen.attack) }`
-  description += `, Support: ${ formatStat(denizen.support) }`
-  description += `, Save: ${ formatStat(denizen.save, '+') }`
-  description += `, CR: ${ formatStat(denizen.commandRange, '"') }`
+  
+  if (denizen.movement !== VALUE_UNDEFINED){
+    description += `, Movement: ${ formatStat(denizen.movement, '"') }`
+  }
+  
+  if (denizen.attack !== VALUE_UNDEFINED){
+    description += `, Attack: ${ formatStat(denizen.attack) }`
+  }
+
+  if (denizen.support !== VALUE_UNDEFINED){
+    description += `, Support: ${ formatStat(denizen.support) }`
+  }
+
+  if (denizen.save !== VALUE_UNDEFINED){
+    description += `, Save: ${ formatStat(denizen.save, '+') }`
+  }
+  
+  if (denizen.commandRange !== VALUE_UNDEFINED){
+    description += `, CR: ${ formatStat(denizen.commandRange, '"') }`
+  }
+  
+  if (denizen.range !== VALUE_UNDEFINED){
+    description += `, Range: ${ formatRange(denizen.range) }`
+  }
+  
   if (denizen.stamina > 0){
     description += `, Stamina: ${ formatStat(denizen.stamina) }`
   }
+
   if (denizen.abilities.length > 0){
     description += `, Abilities: ${ denizen.abilities.map(ability => formatAbility(ability.rule, ability.param1, ability.param2)).join(' - ')}`
   }
+  
   if (denizen.rangedWeapon){
     description += `, Ranged Weapon: ${ denizen.rangedWeapon.name }`
   }
