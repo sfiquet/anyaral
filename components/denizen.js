@@ -52,8 +52,14 @@ function DenizenHeader({ denizen }){
     <Section className="box p-16px">
       <H className="sr-only">Card Header: Types, size and tagline</H>
       <div className="space-y-2">
-        <div className="text-3xl tracking-tighter leading-tight">{ denizen.name }</div>
-        
+        <div className='flex flex-wrap justify-between items-center gap-x-3 gap-y-1'>
+          <div className="text-3xl tracking-tighter leading-tight">{ denizen.name }</div>
+          {denizen.ruleMaturity > 0 &&
+            <div className='px-2 py-1 my-1 rounded text-white bg-gray-600'>
+              { denizen.ruleMaturity === 1 ? 'play test' : 'experimental' }
+            </div>}
+        </div>
+
         <div className="flex justify-between">
           <ul className={ styles.typeList }>
             { denizen.types.map(type => <li key={type}>{type}</li>) }
