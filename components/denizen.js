@@ -241,15 +241,70 @@ function Disclosure({ title, children }){
   )
 }
 
+function AbilityRuleText({ability}){
+  let text = formatAbilityRule(ability.rule, ability.param1, ability.param2)
+  let lines = text.split('\n')
+
+  // remove empty lines (some data strings start with \n)
+  lines = lines.filter(line => line.length !== 0)
+
+  // represent the text as an array of items where items are either a flat string
+  // or an array of strings
+  let list = false
+  let content = lines.reduce((acc, line) => {
+    let re = /^\s+•*\s*/
+    let match = line.match(re)
+    if (match == null){
+      acc.push(line)
+      list = false
+    } else {
+      let text = line.substring(match[0].length)
+      if (!list){
+        acc.push([])
+        list = true
+      }
+      acc[acc.length - 1].push(text)
+    }
+    return acc
+  }, [])
+
+  // convert into paragraphs and lists
+  content = content.map((item, itemid) => {
+    if (Array.isArray(item)){
+      let itemlist = item.map((listitem, index) => (<li className='mb-2' key={index}>{listitem}</li>))
+      return (
+        <ul className="list-disc list-outside ml-6 mb-2" key={itemid}>
+          {itemlist}
+        </ul>
+      )
+    } else {
+      return <p className='mb-2' key={itemid}>{item}</p>
+    }
+  })
+
+  return(
+    <>
+      {content}
+    </>
+  )
+}
+
+function AbilityRule({ability}){
+  let title = formatAbility(ability.rule, ability.param1, ability.param2)
+  return(
+    <Section className="mb-4">
+      <H>{ title }</H>
+      <AbilityRuleText ability={ability} />
+    </Section>
+  )
+}
+
 function AbilityRuleList({ abilities }){
   return (
     <ul>
       { abilities.map(ability => (
         <li key={ability.rule.code}>
-          <Section>
-            <H>{ formatAbility(ability.rule, ability.param1, ability.param2) }</H>
-            <p className="mb-4">{ formatAbilityRule(ability.rule, ability.param1, ability.param2) }</p>
-          </Section>
+          <AbilityRule ability={ability} />
         </li>
       )) }
     </ul>
