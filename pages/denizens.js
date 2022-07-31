@@ -61,7 +61,7 @@ function Legend(){
       <H className='sr-only'>Appendix</H>
       <Section>
         <H>Symbols used</H>
-        <p className='mt-2'>Denizens that haven't been released yet are shown with the following symbols:</p>
+        <p className='mt-2'>Denizens that haven&apos;t been released yet are shown with the following symbols:</p>
         <ul>
           <li className='flex mt-2 items-start gap-2'>
             <Maturity maturity={1}/>
@@ -82,7 +82,7 @@ function Legend(){
 
       <Section>
         <H className='mt-4'>New denizens need testing!</H>
-        <p className='mt-2'>If you've been raring to try new denizens, this is your opportunity to get involved!</p>
+        <p className='mt-2'>If you&apos;ve been raring to try new denizens, this is your opportunity to get involved!</p>
         <p className='mt-2'>Test those new denizens and help fine-tune them prior to release!</p>
         <p className='mt-2'>All feedback should be sent to Mike Thorp.</p>
       </Section>
