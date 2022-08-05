@@ -5,6 +5,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 since version 1.0.0.
 
+## 1.2.0 2022-08-05
+### Changed
+- update data files
+- exclude creatures with immature rules
+- add new stat 'range'
+- hide undefined denizen stats
+- display number of creatures per cost when not 1
+- display rule maturity
+
+### Fixed
+- formatting of multi-line ability rules
+
 ## 1.1.0 2021-11-12
 ### Added
 - PWA: provide means to update all clients when a new service worker is waiting
