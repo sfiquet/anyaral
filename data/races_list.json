@@ -1,6 +1,6 @@
 {
   "version": {
-    "source": 55,
+    "source": 60,
     "script": "1.0.1"
   },
   "data": [
@@ -8,65 +8,83 @@
       "code": "casanii_core",
       "culture": "Casanii",
       "theme": "Core",
-      "allies": [],
       "nonFriendlies": [
         "casanii_feral"
       ],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "allies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "casanii_deyath",
       "culture": "Casanii",
       "theme": "Deyath",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
+      "category": "game"
+    },
+    {
+      "code": "casanii_enyath",
+      "culture": "Casanii",
+      "theme": "Enyath",
       "initiative": 3,
-      "sortName": ""
+      "allies": [],
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "casanii_feral",
       "culture": "Casanii",
       "theme": "Feral",
-      "allies": [],
       "nonFriendlies": [
         "casanii_core"
       ],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "allies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "casanii_steyar",
       "culture": "Casanii",
       "theme": "Steyar",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "casanii_alaim",
       "culture": "Casanii",
       "theme": "Alaim",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "delgon_core",
@@ -75,12 +93,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "delgon_dehran",
@@ -89,12 +108,28 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
+    },
+    {
+      "code": "delgon_eldeyn",
+      "culture": "Delgon",
+      "theme": "Eldeyn",
+      "allies": [
+        "dhogu_core"
+      ],
+      "ruleMaturity": 2,
+      "initiative": 3,
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "delgon_roban",
@@ -103,48 +138,65 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "devanu_arak",
       "culture": "Devanu",
       "theme": "Arak",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
+      "category": "game"
+    },
+    {
+      "code": "devanu_tar_kisael",
+      "culture": "Devanu",
+      "theme": "Tar Kisael",
+      "ruleMaturity": 2,
       "initiative": 3,
-      "sortName": ""
+      "allies": [],
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "devanu_core",
       "culture": "Devanu",
       "theme": "Core",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "devanu_outcasts",
       "culture": "Devanu",
       "theme": "Outcasts",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "dhogu_core",
@@ -163,12 +215,13 @@
         "empire_noble",
         "empire_orel"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_ardaug",
@@ -177,12 +230,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_core",
@@ -191,12 +245,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_engu",
@@ -205,12 +260,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_knights",
@@ -219,12 +275,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_riverfolk",
@@ -233,12 +290,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_loranti",
@@ -247,12 +305,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_noble",
@@ -261,12 +320,13 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "empire_orel",
@@ -275,72 +335,78 @@
       "allies": [
         "dhogu_core"
       ],
-      "nonFriendlies": [],
-      "ruleMaturity": 0,
-      "category": "game",
-      "reserved": true,
       "initiative": 3,
-      "sortName": ""
+      "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
+      "ruleMaturity": 0,
+      "reserved": true,
+      "category": "game"
     },
     {
       "code": "kedashi_core",
       "culture": "Kedashi",
       "theme": "Core",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "kedashi_kiterak",
       "culture": "Kedashi",
       "theme": "Kiterak",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "mercenary",
       "culture": "",
       "theme": "Mercenary",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "wild_creature",
       "culture": "",
       "theme": "Wild Creature",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
+      "sortName": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3,
-      "sortName": ""
+      "category": "game"
     },
     {
       "code": "item",
       "sortName": "z",
       "culture": "",
       "theme": "Item",
+      "initiative": 3,
       "allies": [],
       "nonFriendlies": [],
+      "notes": "",
       "ruleMaturity": 0,
-      "category": "game",
       "reserved": true,
-      "initiative": 3
+      "category": "game"
     }
   ]
 }

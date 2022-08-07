@@ -36,7 +36,11 @@ function getAllCreatures(){
 
   let rawObj = readJsonFile(path.posix.join(dataDir, 'creatures_list.json'));
   // version checking would take place here if needed
-  return rawObj.data;
+
+  // filter out creatures with ruleMaturity > 2, to reproduce the behaviour in getAllData
+  let data = rawObj.data.filter(item => item.ruleMaturity <= 2)
+
+  return data
 }
 // end of utility functions from lib/data.js
 
