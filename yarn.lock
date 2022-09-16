@@ -2021,6 +2021,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/forms@npm:0.3.4":
+  version: 0.3.4
+  resolution: "@tailwindcss/forms@npm:0.3.4"
+  dependencies:
+    mini-svg-data-uri: ^1.2.3
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: 4b2b2b3361169bf5adf1a575c7dc8bb7946192c0edf4829e5b1de342a4e1b8138a01441a8ecef70e0777180b0797506e3f44854f09a32b9d7083658271543783
+  languageName: node
+  linkType: hard
+
 "@testing-library/dom@npm:^8.0.0":
   version: 8.11.1
   resolution: "@testing-library/dom@npm:8.11.1"
@@ -2528,6 +2539,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.18.10
     "@babel/runtime": ^7.16.3
+    "@tailwindcss/forms": 0.3.4
     "@testing-library/jest-dom": ^5.15.1
     "@testing-library/react": ^12.1.2
     autoprefixer: ^10.4.8
@@ -6198,6 +6210,15 @@ __metadata:
   version: 1.0.1
   resolution: "min-indent@npm:1.0.1"
   checksum: bfc6dd03c5eaf623a4963ebd94d087f6f4bbbfd8c41329a7f09706b0cb66969c4ddd336abeb587bc44bc6f08e13bf90f0b374f9d71f9f01e04adc2cd6f083ef1
+  languageName: node
+  linkType: hard
+
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.3
+  resolution: "mini-svg-data-uri@npm:1.4.3"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: bd1789c34907a36ae9157897b7c7f6ad700e71c8cb6d725bb2810ce6211abcaa3717333ca17408f6f8b2a44055e571cd5b78d478688e1864513cb7f8e023ae3f
   languageName: node
   linkType: hard
 
