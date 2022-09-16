@@ -55,7 +55,7 @@ function MainNav(){
         <ToggleButton expanded={isOpen} controlledId={navMenuId} onClick={ () => setIsOpen(!isOpen) } />
       }
       
-      <ul id={navMenuId} className={`${listDisplay} w-full xs:w-3/5 sm:w-auto flex-col sm:flex sm:flex-row sm:space-x-4 mb-4 sm:mb-2 border sm:border-0 border-solid border-gray-400 bg-gray-50 sm:bg-opacity-0 divide-y sm:divide-y-0 divid-gray-400`}>
+      <ul id={navMenuId} className={`${listDisplay} w-full xs:w-3/5 sm:w-auto flex-col sm:flex sm:flex-row sm:space-x-4 mb-4 sm:mb-2 border sm:border-0 border-solid border-gray-400 bg-gray-50 sm:bg-transparent divide-y sm:divide-y-0 divid-gray-400`}>
         <MenuItem url="/denizens">Denizens</MenuItem>
         <MenuItem url="/about">About</MenuItem>
       </ul>

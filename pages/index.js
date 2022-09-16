@@ -3,7 +3,7 @@ import { appName } from '../app.config.js'
 
 function HomeContainer({ children }){
   return (
-    <div className="flex-grow py-32px px-16px sm:px-4 flex m-auto">
+    <div className="grow py-32px px-16px sm:px-4 flex m-auto">
       { children }
     </div>
   )

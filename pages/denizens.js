@@ -10,9 +10,9 @@ import { getAllItems, dataTypes } from '../lib/data'
 
 function Maturity({ maturity }){
   if (maturity === 1){
-    return <div className='w-5 inline-block flex-shrink-0 text-center rounded text-blue-700 border border-blue-700' aria-hidden="true">P</div>
+    return <div className='w-5 inline-block shrink-0 text-center rounded text-blue-700 border border-blue-700' aria-hidden="true">P</div>
   } else if (maturity === 2){
-    return <div className='w-5 inline-block flex-shrink-0 text-center rounded text-white bg-blue-700 border border-blue-700' aria-hidden="true">E</div>
+    return <div className='w-5 inline-block shrink-0 text-center rounded text-white bg-blue-700 border border-blue-700' aria-hidden="true">E</div>
   } else {
     return null
   }

@@ -2,7 +2,10 @@ const { screens } = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  content: [
+    './components/**/*.{js,ts,jsx,tsx}', 
+    './pages/**/*.{js,ts,jsx,tsx}'
+  ],
   theme: {
     colors: {
       transparent: 'transparent',
@@ -10,7 +13,7 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       blue: colors.sky,
-      gray: colors.blueGray,
+      gray: colors.slate,
       orange: colors.orange,
       pink: colors.pink,
     },
@@ -37,7 +40,6 @@ module.exports = {
       },
     },
   },
-  variants: {},
   plugins: [
     require('@tailwindcss/forms'),
   ],
