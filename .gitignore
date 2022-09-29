@@ -47,5 +47,8 @@ yarn-error.log*
 !.yarn/releases
 !.yarn/versions
 
+# npm lock file: only used for audit since it's broken in yarn
+package-lock.json
+
 # vscode
 .vscode
