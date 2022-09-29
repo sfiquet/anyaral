@@ -7,7 +7,7 @@
     "build": "PRECACHE=true next build",
     "start": "next start",
     "lint": "next lint",
-    "fastbuild": "LINTMODE=nolint PRECACHE=true next build",
+    "fastbuild": "PRECACHE=true next build --no-lint",
     "test": "jest --watch"
   },
   "dependencies": {

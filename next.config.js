@@ -1,9 +1,6 @@
 const getBuildId = require('./util/buildid.js')
 
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: process.env.LINTMODE === 'nolint', // for fastbuild script
-  },
   generateBuildId: getBuildId,
 }
 
