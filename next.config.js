@@ -1,7 +1,7 @@
-const getBuildId = require('./util/buildid.js')
+let buildId
 
 const nextConfig = {
-  generateBuildId: getBuildId,
+  generateBuildId: () => buildId,
 }
 
 let pwa = {
@@ -19,8 +19,9 @@ let pwa = {
 if (process.env.PRECACHE === 'true'){
   const getStaticPrecacheEntries = require('./util/staticprecache.js')
   const getGeneratedPrecacheEntries = require('./util/precache.js')
+  const { nanoid } = require('nanoid')
 
-  const buildId = getBuildId()
+  buildId = nanoid()
 
   pwa.additionalManifestEntries = [
     ...getStaticPrecacheEntries({
