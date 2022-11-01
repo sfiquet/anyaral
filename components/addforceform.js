@@ -89,14 +89,12 @@ function maxQuantity(denizen, unusedBudget, currentQuantity){
 
   if (denizen.cost < 0) return 1
   else if (denizen.isUniqueCharacter) return available < denizen.cost ? 0 : 1
+  else if (denizen.cost === 0) return 999
   else return Math.max(0, Math.floor(available / denizen.cost))
 }
 
 function DenizenShoppingRow({item, abilities, unusedBudget, shoppingList, setShoppingList}){
   const maxQty = maxQuantity(item, unusedBudget, shoppingList[item.code])
-  const inputProps = {
-    max: Number.isFinite(maxQty) ? maxQty : undefined,
-  }
 //  console.log(item)
 
   function handleQuantityChange(event){
@@ -118,7 +116,7 @@ function DenizenShoppingRow({item, abilities, unusedBudget, shoppingList, setSho
         <div className='w-1/6'>{`${item.cost} pts`}</div>
         <div className='w-1/3'>
           <label className='sr-only' htmlFor={item.code}>{`${item.name} quantity`}</label>
-          <Input type='number' id={item.code} name={item.code} min='0' {...inputProps} step={item.cost_per} value={shoppingList[item.code]} onChange={handleQuantityChange} />
+          <Input type='number' id={item.code} name={item.code} min='0' max={maxQty} step={item.cost_per} value={shoppingList[item.code]} onChange={handleQuantityChange} />
           <div>{`max: ${maxQty}`}</div>
         </div>
         <div className='w-1/6'>{`${item.cost * shoppingList[item.code] / item.cost_per} pts`}</div>  
@@ -185,6 +183,7 @@ function ResultList({denizens, abilities, budget, usedBudget, shoppingList, setS
   return (<DenizenShoppingList items={denizens} abilities={abilities} unusedBudget={budget - usedBudget} shoppingList={shoppingList} setShoppingList={setShoppingList} />)
 }
 
+/*
 function ResultTableRow({denizen, unusedBudget, shoppingList, setShoppingList}){
   const maxQty = maxQuantity(denizen, unusedBudget, shoppingList[denizen.code])
   const inputProps = {
@@ -233,6 +232,7 @@ function ResultTable({denizens, budget, usedBudget, shoppingList, setShoppingLis
     </table>
   )
 }
+*/
 
 function SearchBar(){
   return null
