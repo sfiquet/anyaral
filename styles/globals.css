@@ -29,6 +29,10 @@
     @apply underline;
   }
   
+  button {
+    @apply block py-2 px-4 rounded 
+  }
+
   /* make tap targets big enough */
   nav a, footer a, button, summary {
     @apply box-border min-w-tap min-h-tap;
@@ -92,5 +96,12 @@
   }
   .markdown p {
     @apply my-4
+  }
+
+  .btn-action {
+    @apply bg-blue-700 text-white
+  }
+  .btn-action:hover, .btn-action:focus {
+    @apply bg-blue-800
   }
 }
