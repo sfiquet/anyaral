@@ -107,19 +107,21 @@ function DenizenShoppingRow({item, abilities, unusedBudget, shoppingList, setSho
 
   return (
     <li className='border-t border-t-grey-300 py-2'>
-      <div className='flex space-x-1'>
-        <h3 className='w-1/3 text-lg'>
+      <div className='flex flex-wrap'>
+        <h3 className='w-full sm:w-1/2 text-lg pb-2'>
           <Link href={`/denizens/${item.code}`}>
             <a>{item.name}</a>    
           </Link>
         </h3>
-        <div className='w-1/6'>{`${item.cost} pts`}</div>
-        <div className='w-1/3'>
-          <label className='sr-only' htmlFor={item.code}>{`${item.name} quantity`}</label>
-          <Input type='number' id={item.code} name={item.code} min='0' max={maxQty} step={item.cost_per} value={shoppingList[item.code]} onChange={handleQuantityChange} />
-          <div>{`max: ${maxQty}`}</div>
+        <div className='w-full sm:w-1/2 flex space-x-1'>
+          <div className='w-1/3'>{`${item.cost} pts`}</div>
+          <div className='w-1/3 text-right'>
+            <label className='sr-only' htmlFor={item.code}>{`${item.name} quantity`}</label>
+            <Input type='number' id={item.code} name={item.code} min='0' max={maxQty} step={item.cost_per} value={shoppingList[item.code]} onChange={handleQuantityChange} />
+            <div>{`max: ${maxQty}`}</div>
+          </div>
+          <div className='w-1/3 text-right'>{`${item.cost * shoppingList[item.code] / item.cost_per} pts`}</div>  
         </div>
-        <div className='w-1/6'>{`${item.cost * shoppingList[item.code] / item.cost_per} pts`}</div>  
       </div>
       <div className='flex space-x-1'>
         <DenizenTags tagArray={item.types} />
