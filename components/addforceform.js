@@ -2,21 +2,9 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { formatAbility } from '../lib/format'
 
-function LabelledInput(props){
-  const {label, id, ...otherProps} = props
-  return (
-    <>
-      <label className="py-2" htmlFor={id}>
-        {label}
-      </label>
-      <input id={id} {...otherProps} />
-    </>
-  )
-}
-
 function Label({label, htmlFor}){
   return (
-    <label className="pt-4 pb-2" htmlFor={htmlFor}>
+    <label className="font-semibold" htmlFor={htmlFor}>
       {label}
     </label>
   )
@@ -39,27 +27,6 @@ function Select({options, selected, onChange, ...props}){
   )
 }
 
-function CulturePicker({ races, culture, setCulture }){
-  const cultureOptions = races
-    .filter(race => race.culture.length > 0)
-    .map(race => ({ value: race.code, text: `${race.culture} - ${race.theme}`}))
-  return (
-    <>
-      <Label label="Culture" htmlFor="culture-select" />
-      <Select id="culture-select" name="culture" required options={cultureOptions} selected={culture} onChange={setCulture} />
-    </>
-  )
-}
-
-function BudgetPicker({budget, setBudget}){
-  return (
-    <>
-      <Label label="Target Points" htmlFor="points" />
-      <Input id="points" type="number" name="points" required min="200" step="50" value={budget} onChange={e => setBudget(e.target.value)} />
-    </>
-  )
-}
-
 function DetailContent({children}){
   return (
     <div className="flex flex-col p-4 pt-0 border-t border-solid border-gray-300">
@@ -69,17 +36,29 @@ function DetailContent({children}){
 }
 
 function ForceDefinition({ races, budget, culture, setBudget, setCulture }){
+  const cultureOptions = races
+  .filter(race => race.culture.length > 0)
+  .map(race => ({ value: race.code, text: `${race.culture} - ${race.theme}`}))
+
   return (
     <details className="box">
       <summary>
-        <h2>Setup - {budget} points, {culture}</h2>
+        <h2><span className='font-semibold'>Setup</span> - {budget} points, {culture}</h2>
       </summary>
-      <DetailContent>
-        <Label label="Name" htmlFor="name" />
-        <Input id="name" type="text" name="name" />
-        <BudgetPicker budget={budget} setBudget={setBudget} />
-        <CulturePicker races={races} culture={culture} setCulture={setCulture} />
-      </DetailContent>
+      <div className="flex flex-col p-4 border-t border-solid border-gray-300 space-y-6">
+        <div className="flex flex-col items-stretch space-y-1">
+          <Label label="Name" htmlFor="name" />
+          <Input id="name" type="text" name="name" />
+        </div>
+        <div className="flex flex-col items-start space-y-1">
+          <Label label="Target points" htmlFor="points" />
+          <Input id="points" type="number" name="points" required min="200" step="50" max="10000" value={budget} onChange={e => setBudget(e.target.value)} />
+        </div>
+        <div className="flex flex-col items-start space-y-1">
+          <Label label="Culture" htmlFor="culture-select" />
+          <Select id="culture-select" name="culture" required options={cultureOptions} selected={culture} onChange={setCulture} />
+        </div>
+      </div>
     </details>
   )
 }
